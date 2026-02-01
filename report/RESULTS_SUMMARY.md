@@ -1,6 +1,13 @@
 # COMPLETE EVALUATION RESULTS - 100 Questions
 
-**Date:** 2026-02-02 14:35:22 UTC  
+### CONV AI - Group 11 - ASSIGNMENT 2
+
+1. Rahul Sharma - 2024AA05893 - 100%
+2. Avantika Shukla - 2024AA05303 - 100%
+3. Avishek Ghatak - 2024AA05895 - 100%
+4. Mayank Upadhyaya - ⁠2024AA05165 - 100%
+5. Trupti Dhoble - 2024AA05300 - 100%
+
 **Total Questions Evaluated:** 100  
 **System:** Hybrid RAG (Dense + Sparse + RRF)  
 **Status:** Production Ready
@@ -32,13 +39,13 @@
 
 ## Question Type Performance - Detailed Breakdown
 
-| Question Type   | Count | Avg Similarity | Performance          | Best/Worst              |
-| --------------- | ----- | -------------- | -------------------- | ----------------------- |
-| **Factual**     | 23    | **0.6943**     | ⭐⭐⭐⭐⭐ Excellent | **Best Performer**      |
-| **Comparative** | 21    | **0.6045**     | ⭐⭐⭐⭐ Good        | Strong Secondary        |
-| **Reasoning**   | 9     | **0.5252**     | ⭐⭐⭐ Fair          | Moderate                |
-| **Inferential** | 23    | **0.5127**     | ⭐⭐⭐ Fair          | Needs Improvement       |
-| **Multi-hop**   | 24    | **0.4201**     | ⭐⭐ Challenging     | **Weakest Performance** |
+| Question Type   | Count | Avg Similarity | Performance | Best/Worst              |
+| --------------- | ----- | -------------- | ----------- | ----------------------- |
+| **Factual**     | 23    | **0.6943**     | Excellent   | **Best Performer**      |
+| **Comparative** | 21    | **0.6045**     | Good        | Strong Secondary        |
+| **Reasoning**   | 9     | **0.5252**     | Fair        | Moderate                |
+| **Inferential** | 23    | **0.5127**     | Fair        | Needs Improvement       |
+| **Multi-hop**   | 24    | **0.4201**     | Challenging | **Weakest Performance** |
 
 ### Type-Specific Insights
 

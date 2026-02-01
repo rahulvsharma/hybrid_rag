@@ -1,6 +1,14 @@
-# EVALUATION REPORT - February 02, 2026
+# EVALUATION REPORT
 
-**When We Tested It:** 2026-02-02 14:35:22  
+### CONV AI - Group 11 - ASSIGNMENT 2
+
+1. Rahul Sharma - 2024AA05893 - 100%
+2. Avantika Shukla - 2024AA05303 - 100%
+3. Avishek Ghatak - 2024AA05895 - 100%
+4. Mayank Upadhyaya - ⁠2024AA05165 - 100%
+5. Trupti Dhoble - 2024AA05300 - 100%
+
+**When We Tested It:**
 **Questions Tested:** 100 different ones  
 **Status:** Complete
 
@@ -102,13 +110,13 @@ We tested the system on 100 different questions covering various types - some si
 
 The evaluation included questions across diverse categories with performance metrics:
 
-| Question Type   | Count | Avg Similarity | Performance          |
-| --------------- | ----- | -------------- | -------------------- |
-| **Factual**     | 23    | 0.6943         | ⭐⭐⭐⭐⭐ Excellent |
-| **Comparative** | 21    | 0.6045         | ⭐⭐⭐⭐ Good        |
-| **Reasoning**   | 9     | 0.5252         | ⭐⭐⭐ Fair          |
-| **Inferential** | 23    | 0.5127         | ⭐⭐⭐ Fair          |
-| **Multi-hop**   | 24    | 0.4201         | ⭐⭐ Challenging     |
+| Question Type   | Count | Avg Similarity | Performance |
+| --------------- | ----- | -------------- | ----------- |
+| **Factual**     | 23    | 0.6943         | Excellent   |
+| **Comparative** | 21    | 0.6045         | Good        |
+| **Reasoning**   | 9     | 0.5252         | Fair        |
+| **Inferential** | 23    | 0.5127         | Fair        |
+| **Multi-hop**   | 24    | 0.4201         | Challenging |
 
 **Key Insights:**
 

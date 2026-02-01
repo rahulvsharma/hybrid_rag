@@ -1,10 +1,19 @@
 # Error Analysis
 
+### CONV AI - Group 11 - ASSIGNMENT 2
+
+1. Rahul Sharma - 2024AA05893 - 100%
+2. Avantika Shukla - 2024AA05303 - 100%
+3. Avishek Ghatak - 2024AA05895 - 100%
+4. Mayank Upadhyaya - ⁠2024AA05165 - 100%
+5. Trupti Dhoble - 2024AA05300 - 100%
+
 ## Overview
 
 Out of 100 test questions, 58 were answered correctly and 42 failed.
 
 Failure rate by question type:
+
 - Factual: 28% fail (72% success)
 - Comparative: 48% fail (52% success)
 - Inferential: 60% fail (40% success)
@@ -17,6 +26,7 @@ Failure rate by question type:
 Query and document use different words for same concept.
 
 Example:
+
 - Question: "What is machine learning?"
 - Expected: Wikipedia Machine_Learning
 - Retrieved: Wikipedia Artificial_Intelligence
@@ -27,6 +37,7 @@ Example:
 Answer requires information from multiple documents.
 
 Example:
+
 - Question: "Compare machine learning and deep learning"
 - Need: Both articles together
 - Got: Only machine learning
@@ -37,6 +48,7 @@ Example:
 Dense and sparse methods give different results.
 
 Example:
+
 - Dense finds: Semantically similar docs
 - Sparse finds: Keyword matches
 - Hybrid combination: Ranked wrong document first
@@ -47,6 +59,7 @@ Example:
 Technical terms or uncommon phrases.
 
 Example:
+
 - Question: "Explain backpropagation"
 - BM25 missed: Term doesn't appear in article titles
 - Dense missed: Too specific, training data bias
@@ -55,24 +68,28 @@ Example:
 ## Performance by Question Type
 
 Factual Questions (50 total):
+
 - Success: 36
 - Failure: 14
 - Most failures due to semantic mismatch
 - Dense retrieval works well here
 
 Comparative Questions (25 total):
+
 - Success: 13
 - Failure: 12
 - Problems: Need to merge two concepts
 - Multi-document retrieval weakness
 
 Inferential Questions (15 total):
+
 - Success: 6
 - Failure: 9
 - Need reasoning about relationships
 - Requires understanding meaning
 
 Multi-hop Questions (10 total):
+
 - Success: 3
 - Failure: 7
 - Require multiple reasoning steps
@@ -81,16 +98,19 @@ Multi-hop Questions (10 total):
 ## Error Categories
 
 Critical Errors (18 total):
+
 - Retrieved completely wrong topic
 - Example: "What is gravity?" returns history articles
 - Cause: Query ambiguous or corpus gap
 
 Major Errors (16 total):
+
 - Retrieved related but not exact match
 - Example: "Machine learning" returns "Data mining"
 - Cause: Semantic similarity but not exact
 
 Minor Errors (8 total):
+
 - Retrieved correct document but not ranked first
 - Example: Correct URL in position 5, not 1
 - Cause: Ranking algorithm weights
@@ -120,6 +140,7 @@ Minor Errors (8 total):
 ## Conclusion
 
 The system works well (58% success) but struggles with:
+
 - Questions needing multiple documents
 - Complex reasoning and inference
 - Vocabulary gaps in technical terms
