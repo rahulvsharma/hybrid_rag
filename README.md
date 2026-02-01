@@ -6,7 +6,7 @@ I also created a comprehensive evaluation framework with 100 test questions to p
 
 ## Project Status
 
-✅ **Complete & Ready for Submission**
+**Complete & Ready for Submission**
 
 - **Questions:** 100 Q&A pairs (5 diverse types)
 - **Metrics:** 7 evaluation metrics with full justifications
