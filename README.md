@@ -2,7 +2,7 @@
 
 Built a hybrid retrieval-augmented generation (RAG) system that combines dense and sparse retrieval to answer questions from Wikipedia. The idea was to leverage both semantic understanding (dense embeddings) and exact keyword matching (BM25) together, which turned out to work pretty well.
 
-I also created a comprehensive evaluation framework with 100 test questions to properly assess how well the system actually works.
+We also created a comprehensive evaluation framework with 100 test questions to properly assess how well the system actually works.
 
 ## Project Status
 
@@ -45,9 +45,9 @@ python -c "import nltk; nltk.download('punkt')"
 
 ## Data
 
-I'm using around 500 Wikipedia articles:
+We are using around 500 Wikipedia articles:
 
-- 200 fixed ones (I hardcoded these so results are reproducible)
+- 200 fixed ones (We hardcoded these so results are reproducible)
 - 300 random ones (picked randomly, different each run - tests robustness)
 
 Each article gets split into chunks of 200-400 tokens with 50-token overlap so the context windows make sense. Ends up being around 3,452 chunks total.
@@ -56,7 +56,7 @@ Each article gets split into chunks of 200-400 tokens with 50-token overlap so t
 
 When you ask a question:
 
-1. **Dense retrieval step:** I embed the question and all corpus chunks using a sentence transformer, find top 50 most similar using FAISS vector search
+1. **Dense retrieval step:** We embed the question and all corpus chunks using a sentence transformer, find top 50 most similar using FAISS vector search
 2. **Sparse retrieval step:** BM25 keyword matching to find top 50 chunks with matching keywords
 3. **Merge both:** Reciprocal Rank Fusion (k=60) combines the two rankings intelligently - takes the best results from both approaches
 4. **Generate answer:** Takes top 3 chunks and feeds them + question into Flan-T5-base to generate a coherent answer

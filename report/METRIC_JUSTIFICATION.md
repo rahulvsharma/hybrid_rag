@@ -1,18 +1,18 @@
 # METRIC JUSTIFICATION DOCUMENT
 
-I needed to choose 7 metrics to evaluate my RAG system. The assignment required at least one mandatory metric (MRR) plus custom ones. Here's why I picked each one and how I calculated them.
+We needed to choose 7 metrics to evaluate our RAG system. The assignment required at least one mandatory metric (MRR) plus custom ones. Here's why we picked each one and how we calculated them.
 
 ## 1. Mean Reciprocal Rank (MRR) - MANDATORY METRIC
 
-### Why I Chose This
+### Why We Chose This
 
-The assignment requires this one, but honestly it's a good metric anyway. For a RAG system, if you can't retrieve the correct source document, you can't generate a good answer. MRR directly measures how well you're ranking the correct document, which is the core job of the retrieval part.
+The assignment requires this one, but honestly it's a good metric anyway. For a RAG system, if you can't retrieve the correct source document, you can't generate a good answer. MRR directly measures how well we're ranking the correct document, which is the core job of the retrieval part.
 
-### How I Calculate It
+### How We Calculate It
 
 For each question:
 
-1. I retrieve the top-K documents
+1. We retrieve the top-K documents
 2. Find which position the correct Wikipedia URL first appears
 3. Record 1/rank for that position
 4. Average across all 100 questions
@@ -25,22 +25,22 @@ MRR = (Sum of 1/rank values) / Number of questions
 
 - **0.9-1.0:** Excellent - Usually finding correct doc at rank 1
 - **0.5-0.9:** Good - Usually finding it in top 3
-- **0.1-0.5:** Fair - Finding it somewhere in top 10 (my score is here)
+- **0.1-0.5:** Fair - Finding it somewhere in top 10 (our score is here)
 - **<0.1:** Poor - Rarely finding correct source
 
 ### Why Document-Level and Not Chunk-Level?
 
-The ground truth data I have is at the document level (which Wikipedia URLs have the answer), not at the chunk level. Plus, in real usage, you usually cite which Wikipedia article you're using, not specific chunks. So document-level makes more sense.
+The ground truth data we have is at the document level (which Wikipedia URLs have the answer), not at the chunk level. Plus, in real usage, you usually cite which Wikipedia article you're using, not specific chunks. So document-level makes more sense.
 
 ---
 
 ## 2. Hit Rate
 
-### Why I Chose This
+### Why We Chose This
 
-This is simple and interpretable - did I retrieve the correct source in my top 10 or not? It's different from MRR because it doesn't care about ranking position, just whether I got it. Combined with MRR, it gives me two perspectives: MRR tells me "how well did I rank things" and Hit Rate tells me "did I even retrieve it".
+This is simple and interpretable - did we retrieve the correct source in our top 10 or not? It's different from MRR because it doesn't care about ranking position, just whether we got it. Combined with MRR, it gives us two perspectives: MRR tells us "how well did we rank things" and Hit Rate tells us "did we even retrieve it".
 
-### How I Calculate It
+### How We Calculate It
 
 ```
 Hit Rate = (Number of questions where correct URL appears in top-10) / (Total questions) * 100
@@ -50,9 +50,9 @@ Basically just counting successes out of 100.
 
 ### What It Means
 
-- **>80%:** Good - I'm retrieving the right sources most of the time
+- **>80%:** Good - We're retrieving the right sources most of the time
 - **60-80%:** Okay - Most questions work
-- **40-60%:** Fair - Mixed results (that's where I am)
+- **40-60%:** Fair - Mixed results (that's where we are)
 - **<40%:** Bad - System struggling
 
 ### Why This Matters

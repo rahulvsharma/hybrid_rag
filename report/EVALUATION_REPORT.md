@@ -1,27 +1,27 @@
 # EVALUATION REPORT - February 02, 2026
 
-**When I Tested It:** 2026-02-02 14:35:22  
+**When We Tested It:** 2026-02-02 14:35:22  
 **Questions Tested:** 100 different ones  
 **Status:** Complete
 
 ---
 
-## What I Found
+## What We Found
 
-I tested the system on 100 different questions covering various types - some simple factual lookups, some that need comparisons, some that need reasoning across multiple facts, etc. Here's how it performed overall:
+We tested the system on 100 different questions covering various types - some simple factual lookups, some that need comparisons, some that need reasoning across multiple facts, etc. Here's how it performed overall:
 
 ### Results
 
-| Metric                   | Score           | What It Means                                                                    |
-| ------------------------ | --------------- | -------------------------------------------------------------------------------- |
-| **MRR**                  | 0.3201 ± 0.1291 | On average, I find the right Wikipedia page in positions 3-4                     |
-| **Hit Rate**             | 47.81%          | Found correct source for about half the questions                                |
-| **NDCG@10**              | 0.4147          | Ranking isn't perfect but decent                                                 |
-| **BERTScore**            | 0.5240          | Generated answers somewhat match reference answers                               |
-| **Semantic Similarity**  | 0.5526          | Answer meanings are moderately similar to ground truth                           |
-| **Contextual Precision** | 0.5653          | About half the retrieved chunks actually help                                    |
-| **Answer Faithfulness**  | 59.79%          | Most answers stick to what I actually retrieved (good, means less hallucinating) |
-| **Speed**                | 2.02s           | Pretty fast, takes about 2 seconds per question                                  |
+| Metric                   | Score           | What It Means                                                                     |
+| ------------------------ | --------------- | --------------------------------------------------------------------------------- |
+| **MRR**                  | 0.3201 ± 0.1291 | On average, we find the right Wikipedia page in positions 3-4                     |
+| **Hit Rate**             | 47.81%          | Found correct source for about half the questions                                 |
+| **NDCG@10**              | 0.4147          | Ranking isn't perfect but decent                                                  |
+| **BERTScore**            | 0.5240          | Generated answers somewhat match reference answers                                |
+| **Semantic Similarity**  | 0.5526          | Answer meanings are moderately similar to ground truth                            |
+| **Contextual Precision** | 0.5653          | About half the retrieved chunks actually help                                     |
+| **Answer Faithfulness**  | 59.79%          | Most answers stick to what we actually retrieved (good, means less hallucinating) |
+| **Speed**                | 2.02s           | Pretty fast, takes about 2 seconds per question                                   |
 
 ---
 
@@ -31,9 +31,9 @@ I tested the system on 100 different questions covering various types - some sim
 
 #### Mean Reciprocal Rank (MRR): 0.3201 ± 0.1291
 
-**What it is:** Basically, for each question, I check what position the correct Wikipedia page shows up in. If it's rank 1, that's perfect (1/1 = 1.0). If it's rank 3, that's 1/3 = 0.33. Then I average those numbers.
+**What it is:** Basically, for each question, we check what position the correct Wikipedia page shows up in. If it's rank 1, that's perfect (1/1 = 1.0). If it's rank 3, that's 1/3 = 0.33. Then we average those numbers.
 
-**What mine achieved:**
+**What we achieved:**
 
 - Average of 0.3201 means the correct page usually shows up around position 3-4
 - The ± 0.1291 shows there's some variation - sometimes it's better, sometimes worse
@@ -41,19 +41,19 @@ I tested the system on 100 different questions covering various types - some sim
 
 **Why this matters:**
 
-- If I don't rank the correct document high, it's hard to generate good answers
+- If we don't rank the correct document high, it's hard to generate good answers
 - The hybrid approach (combining dense + sparse) helps, but there's still room to improve
 
 #### Hit Rate: 47.81% (0.4781)
 
-**What it is:** Out of 100 questions, how many times did I successfully retrieve the correct source document in my top-10 results?
+**What it is:** Out of 100 questions, how many times did we successfully retrieve the correct source document in our top-10 results?
 
 **Result:** About 48 out of 100 questions had the correct source in the top 10. So basically 50/50.
 
-**What this tells me:**
+**What this tells us:**
 
-- I'm getting the right source about half the time
-- The other half the time, I'm retrieving wrong documents
+- We're getting the right source about half the time
+- The other half the time, we're retrieving wrong documents
 - Definitely room to improve - ideally want this closer to 80-90%
 
 #### NDCG@10: 0.4147
