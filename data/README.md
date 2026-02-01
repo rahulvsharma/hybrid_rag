@@ -2,6 +2,14 @@
 
 This folder stores all the dataset files needed for the project.
 
+### CONV AI - Group 11 - ASSIGNMENT 2
+
+1. Rahul Sharma - 2024AA05893 - 100%
+2. Avantika Shukla - 2024AA05303 - 100%
+3. Avishek Ghatak - 2024AA05895 - 100%
+4. Mayank Upadhyaya - ⁠2024AA05165 - 100%
+5. Trupti Dhoble - 2024AA05300 - 100%
+
 ## Files
 
 ### fixed_urls.json
@@ -14,6 +22,7 @@ This folder stores all the dataset files needed for the project.
 - Each article has at least 200 words
 
 Format:
+
 ```json
 {
   "urls": [
@@ -28,12 +37,14 @@ Format:
 Preprocessed text from Wikipedia articles.
 
 Structure:
+
 - 500 total articles (200 fixed + 300 random)
 - 3,452 text chunks
 - Each chunk: 200-400 tokens
 - Overlap between chunks: 50 tokens
 
 Fields in each chunk:
+
 - url: Wikipedia link
 - title: Article name
 - chunk_id: Unique ID
@@ -42,6 +53,7 @@ Fields in each chunk:
 - chunk_index: Position
 
 Example:
+
 ```json
 {
   "metadata": {
@@ -65,6 +77,7 @@ Example:
 Results from evaluating the system.
 
 Contains:
+
 - Overall metrics summary
 - Per-question results
 - Retrieved URLs and scores
@@ -73,6 +86,7 @@ Contains:
 - Error analysis
 
 Key metrics:
+
 - MRR at URL: 0.42
 - Hit Rate: 0.58
 - NDCG@10: 0.55
@@ -103,17 +117,20 @@ with open('evaluation_results.json') as f:
 ## Regenerating
 
 Rebuild entire dataset:
+
 ```bash
 python code/main.py --full
 ```
 
 Just rebuild corpus (keep fixed URLs):
+
 ```bash
 rm wikipedia_corpus.json
 python code/main.py --setup-data
 ```
 
 Just run evaluation:
+
 ```bash
 python code/main.py --eval
 ```

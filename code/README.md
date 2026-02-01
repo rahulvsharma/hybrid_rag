@@ -2,6 +2,14 @@
 
 Contains the main Python code for the RAG system.
 
+### CONV AI - Group 11 - ASSIGNMENT 2
+
+1. Rahul Sharma - 2024AA05893 - 100%
+2. Avantika Shukla - 2024AA05303 - 100%
+3. Avishek Ghatak - 2024AA05895 - 100%
+4. Mayank Upadhyaya - ⁠2024AA05165 - 100%
+5. Trupti Dhoble - 2024AA05300 - 100%
+
 ## Files
 
 ### data_collection.py
@@ -9,11 +17,13 @@ Contains the main Python code for the RAG system.
 Gets Wikipedia articles and prepares them for use.
 
 Functions:
+
 - create_fixed_urls_file(): Creates list of 200 fixed URLs
 - DataPreprocessor: Class that collects and chunks Wikipedia articles
 - WikipediaDataCollector: Gets raw Wikipedia content
 
 Does:
+
 - Downloads Wikipedia articles
 - Splits into chunks (200-400 tokens)
 - Adds metadata (title, URL, chunk ID)
@@ -24,12 +34,14 @@ Does:
 The main RAG implementation.
 
 Classes:
+
 - HybridRAGSystem: Main class for queries
 - DenseRetriever: Uses embeddings for search
 - SparseRetriever: Uses BM25 keyword search
 - ResponseGenerator: Creates answers with LLM
 
 Does:
+
 - Loads corpus
 - Builds indices for search
 - Processes queries
@@ -42,6 +54,7 @@ Does:
 Main entry point script.
 
 Options:
+
 ```bash
 python code/main.py --full              # Everything
 python code/main.py --setup-data        # Get data only
@@ -86,6 +99,7 @@ python code/main.py --full
 ```
 
 This does:
+
 1. Setup data
 2. Test RAG system
 3. Run evaluation
@@ -100,6 +114,7 @@ This does:
 ## Key Classes
 
 HybridRAGSystem:
+
 - query(question, top_k, top_n)
 - Retrieves relevant chunks
 - Generates answer
@@ -108,6 +123,7 @@ HybridRAGSystem:
 ## Output
 
 Returns dictionary with:
+
 - question: Input question
 - answer: Generated answer
 - retrieved_chunks: List of chunks found

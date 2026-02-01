@@ -1,5 +1,13 @@
 # Hybrid RAG System with Automated Evaluation
 
+### CONV AI - Group 11 - ASSIGNMENT 2
+
+1. Rahul Sharma - 2024AA05893 - 100%
+2. Avantika Shukla - 2024AA05303 - 100%
+3. Avishek Ghatak - 2024AA05895 - 100%
+4. Mayank Upadhyaya - ⁠2024AA05165 - 100%
+5. Trupti Dhoble - 2024AA05300 - 100%
+
 Built a hybrid retrieval-augmented generation (RAG) system that combines dense and sparse retrieval to answer questions from Wikipedia. The idea was to leverage both semantic understanding (dense embeddings) and exact keyword matching (BM25) together, which turned out to work pretty well.
 
 We also created a comprehensive evaluation framework with 100 test questions to properly assess how well the system actually works.

@@ -2,6 +2,14 @@
 
 The web interface for testing the RAG system.
 
+### CONV AI - Group 11 - ASSIGNMENT 2
+
+1. Rahul Sharma - 2024AA05893 - 100%
+2. Avantika Shukla - 2024AA05303 - 100%
+3. Avishek Ghatak - 2024AA05895 - 100%
+4. Mayank Upadhyaya - ⁠2024AA05165 - 100%
+5. Trupti Dhoble - 2024AA05300 - 100%
+
 ## Files
 
 ### app.py
@@ -9,12 +17,14 @@ The web interface for testing the RAG system.
 Main Streamlit application.
 
 Has 4 pages:
+
 1. Query - Ask questions and get answers
 2. Evaluation Results - Browse test results
 3. Analytics - View charts and metrics
 4. About - System information
 
 Features:
+
 - Real-time Q&A
 - Shows retrieved URLs and scores
 - Displays response time
@@ -26,6 +36,7 @@ Features:
 UI components and styling.
 
 Includes:
+
 - Custom CSS styling (ChatGPT-style green theme)
 - Page components
 - Reusable functions
@@ -46,18 +57,21 @@ Access at http://localhost:8501
 ## Pages
 
 Query Page:
+
 - Text input for questions
 - Real-time processing
 - Shows answer, URLs, and timing
 - Copy answer button
 
 Results Page:
+
 - Table of all 100 test questions
 - Shows metrics for each
 - Filter and search
 - Sort by different columns
 
 Analytics Page:
+
 - Metric comparison charts
 - Score distributions
 - Question type breakdown
@@ -65,6 +79,7 @@ Analytics Page:
 - Retrieval method comparison
 
 About Page:
+
 - How the system works
 - What each metric means
 - System architecture
@@ -74,6 +89,7 @@ About Page:
 ## Configuration
 
 Custom CSS in ui.py:
+
 - Green theme matching ChatGPT
 - Professional appearance
 - Responsive design
@@ -82,6 +98,7 @@ Custom CSS in ui.py:
 ## Dependencies
 
 From requirements.txt:
+
 - streamlit
 - transformers
 - sentence-transformers
@@ -93,6 +110,7 @@ From requirements.txt:
 ## Session Management
 
 App maintains:
+
 - Query history
 - Recent questions
 - Cached embeddings
@@ -101,6 +119,7 @@ App maintains:
 ## Error Handling
 
 Handles:
+
 - Missing files
 - Invalid queries
 - Network issues
@@ -109,6 +128,7 @@ Handles:
 ## Design
 
 Based on ChatGPT interface:
+
 - Clean, minimal design
 - Green accent color
 - Easy navigation
@@ -117,6 +137,7 @@ Based on ChatGPT interface:
 ## Customization
 
 To change styling, edit ui.py:
+
 - Colors in CSS
 - Layout in components
 - Page structure
@@ -124,6 +145,7 @@ To change styling, edit ui.py:
 ## Performance
 
 Typical response:
+
 - First load: 30-60s (downloads models)
 - Subsequent queries: 0.2-0.5s
 - Charts: Instant
