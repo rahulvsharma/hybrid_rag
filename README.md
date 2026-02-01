@@ -213,13 +213,13 @@ hybrid_rag/
 
 ### Performance by Question Type
 
-| Type        | Count | Avg Similarity | Performance Rating   |
-| ----------- | ----- | -------------- | -------------------- |
-| Factual     | 23    | **0.6943**     | ⭐⭐⭐⭐⭐ Excellent |
-| Comparative | 21    | **0.6045**     | ⭐⭐⭐⭐ Good        |
-| Reasoning   | 9     | **0.5252**     | ⭐⭐⭐ Fair          |
-| Inferential | 23    | **0.5127**     | ⭐⭐⭐ Fair          |
-| Multi-hop   | 24    | **0.4201**     | ⭐⭐ Challenging     |
+| Type        | Count | Avg Similarity | Performance Rating |
+| ----------- | ----- | -------------- | ------------------ |
+| Factual     | 23    | **0.6943**     | Excellent          |
+| Comparative | 21    | **0.6045**     | Good               |
+| Reasoning   | 9     | **0.5252**     | Fair               |
+| Inferential | 23    | **0.5127**     | Fair               |
+| Multi-hop   | 24    | **0.4201**     | Challenging        |
 
 **Key Insight:** Factual questions excel (69.43% similarity), while multi-hop reasoning is most challenging (42.01%)
 
