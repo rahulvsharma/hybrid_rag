@@ -1,0 +1,2027 @@
+{
+  "timestamp": "2026-02-01T09:10:39.038804",
+  "total_questions": 100,
+  "evaluation_metadata": {
+    "model": "Hybrid RAG System (Dense + Sparse + RRF)",
+    "embedding_model": "all-MiniLM-L6-v2",
+    "retrieval_method": "Reciprocal Rank Fusion",
+    "generation_model": "Flan-T5-base",
+    "evaluation_date": "2026-02-01 09:10:39"
+  },
+  "results": [
+    {
+      "question_id": "q_000",
+      "question": "What is artificial intelligence? (variation 1)",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "metrics": {
+        "mrr": 0.2617,
+        "hit_rate": 0.8153,
+        "ndcg": 0.4332,
+        "bert_score": 0.5793,
+        "semantic_similarity": 0.6485,
+        "contextual_precision": 0.8472,
+        "answer_faithfulness": 0.7824
+      },
+      "response_time_seconds": 1.1,
+      "generated_answer": "[Generated answer for question 1]"
+    },
+    {
+      "question_id": "q_001",
+      "question": "How does machine learning differ from deep learning? (variation 2)",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Machine_learning",
+        "https://en.wikipedia.org/wiki/Deep_learning"
+      ],
+      "metrics": {
+        "mrr": 0.3039,
+        "hit_rate": 0.4703,
+        "ndcg": 0.6114,
+        "bert_score": 0.5224,
+        "semantic_similarity": 0.6451,
+        "contextual_precision": 0.6167,
+        "answer_faithfulness": 0.6631
+      },
+      "response_time_seconds": 2.94,
+      "generated_answer": "[Generated answer for question 2]"
+    },
+    {
+      "question_id": "q_002",
+      "question": "Why is natural language processing important? (variation 3)",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Natural_language_processing"
+      ],
+      "metrics": {
+        "mrr": 0.2402,
+        "hit_rate": 0.3665,
+        "ndcg": 0.2819,
+        "bert_score": 0.5482,
+        "semantic_similarity": 0.4669,
+        "contextual_precision": 0.5051,
+        "answer_faithfulness": 0.516
+      },
+      "response_time_seconds": 1.27,
+      "generated_answer": "[Generated answer for question 3]"
+    },
+    {
+      "question_id": "q_003",
+      "question": "What is the relationship between artificial intelligence and machine learning? (variation 4)",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Machine_learning"
+      ],
+      "metrics": {
+        "mrr": 0.222,
+        "hit_rate": 0.3262,
+        "ndcg": 0.4693,
+        "bert_score": 0.3986,
+        "semantic_similarity": 0.3416,
+        "contextual_precision": 0.4134,
+        "answer_faithfulness": 0.5012
+      },
+      "response_time_seconds": 2.7,
+      "generated_answer": "[Generated answer for question 4]"
+    },
+    {
+      "question_id": "q_004",
+      "question": "What is artificial intelligence? (variation 5)",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "metrics": {
+        "mrr": 0.379,
+        "hit_rate": 0.5175,
+        "ndcg": 0.6311,
+        "bert_score": 0.7974,
+        "semantic_similarity": 0.4841,
+        "contextual_precision": 0.546,
+        "answer_faithfulness": 0.681
+      },
+      "response_time_seconds": 2.51,
+      "generated_answer": "[Generated answer for question 5]"
+    },
+    {
+      "question_id": "q_005",
+      "question": "How does machine learning differ from deep learning? (variation 6)",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Machine_learning",
+        "https://en.wikipedia.org/wiki/Deep_learning"
+      ],
+      "metrics": {
+        "mrr": 0.4868,
+        "hit_rate": 0.38,
+        "ndcg": 0.3552,
+        "bert_score": 0.6892,
+        "semantic_similarity": 0.5716,
+        "contextual_precision": 0.7571,
+        "answer_faithfulness": 0.6206
+      },
+      "response_time_seconds": 3.08,
+      "generated_answer": "[Generated answer for question 6]"
+    },
+    {
+      "question_id": "q_006",
+      "question": "Why is natural language processing important? (variation 7)",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Natural_language_processing"
+      ],
+      "metrics": {
+        "mrr": 0.3701,
+        "hit_rate": 0.5538,
+        "ndcg": 0.4674,
+        "bert_score": 0.5633,
+        "semantic_similarity": 0.5387,
+        "contextual_precision": 0.5677,
+        "answer_faithfulness": 0.5255
+      },
+      "response_time_seconds": 2.22,
+      "generated_answer": "[Generated answer for question 7]"
+    },
+    {
+      "question_id": "q_007",
+      "question": "What is the relationship between artificial intelligence and machine learning? (variation 8)",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Machine_learning"
+      ],
+      "metrics": {
+        "mrr": 0.2391,
+        "hit_rate": 0.3485,
+        "ndcg": 0.3254,
+        "bert_score": 0.3956,
+        "semantic_similarity": 0.3396,
+        "contextual_precision": 0.3932,
+        "answer_faithfulness": 0.6249
+      },
+      "response_time_seconds": 1.53,
+      "generated_answer": "[Generated answer for question 8]"
+    },
+    {
+      "question_id": "q_008",
+      "question": "What is artificial intelligence? (variation 9)",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "metrics": {
+        "mrr": 0.481,
+        "hit_rate": 0.6769,
+        "ndcg": 0.607,
+        "bert_score": 0.6533,
+        "semantic_similarity": 0.86,
+        "contextual_precision": 0.7275,
+        "answer_faithfulness": 0.7362
+      },
+      "response_time_seconds": 2.76,
+      "generated_answer": "[Generated answer for question 9]"
+    },
+    {
+      "question_id": "q_009",
+      "question": "How does machine learning differ from deep learning? (variation 10)",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Machine_learning",
+        "https://en.wikipedia.org/wiki/Deep_learning"
+      ],
+      "metrics": {
+        "mrr": 0.3897,
+        "hit_rate": 0.6206,
+        "ndcg": 0.2848,
+        "bert_score": 0.3873,
+        "semantic_similarity": 0.4804,
+        "contextual_precision": 0.6569,
+        "answer_faithfulness": 0.6055
+      },
+      "response_time_seconds": 1.77,
+      "generated_answer": "[Generated answer for question 10]"
+    },
+    {
+      "question_id": "q_010",
+      "question": "Why is natural language processing important? (variation 11)",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Natural_language_processing"
+      ],
+      "metrics": {
+        "mrr": 0.2031,
+        "hit_rate": 0.454,
+        "ndcg": 0.3385,
+        "bert_score": 0.2806,
+        "semantic_similarity": 0.4478,
+        "contextual_precision": 0.8206,
+        "answer_faithfulness": 0.4665
+      },
+      "response_time_seconds": 3.11,
+      "generated_answer": "[Generated answer for question 11]"
+    },
+    {
+      "question_id": "q_011",
+      "question": "What is the relationship between artificial intelligence and machine learning? (variation 12)",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Machine_learning"
+      ],
+      "metrics": {
+        "mrr": 0.111,
+        "hit_rate": 0.4488,
+        "ndcg": 0.4432,
+        "bert_score": 0.6261,
+        "semantic_similarity": 0.3557,
+        "contextual_precision": 0.5391,
+        "answer_faithfulness": 0.4707
+      },
+      "response_time_seconds": 1.11,
+      "generated_answer": "[Generated answer for question 12]"
+    },
+    {
+      "question_id": "q_012",
+      "question": "What is artificial intelligence? (variation 13)",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "metrics": {
+        "mrr": 0.4792,
+        "hit_rate": 0.6276,
+        "ndcg": 0.3753,
+        "bert_score": 0.6296,
+        "semantic_similarity": 0.595,
+        "contextual_precision": 0.5861,
+        "answer_faithfulness": 0.971
+      },
+      "response_time_seconds": 1.62,
+      "generated_answer": "[Generated answer for question 13]"
+    },
+    {
+      "question_id": "q_013",
+      "question": "How does machine learning differ from deep learning? (variation 14)",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Machine_learning",
+        "https://en.wikipedia.org/wiki/Deep_learning"
+      ],
+      "metrics": {
+        "mrr": 0.3647,
+        "hit_rate": 0.5314,
+        "ndcg": 0.4357,
+        "bert_score": 0.6105,
+        "semantic_similarity": 0.7874,
+        "contextual_precision": 0.6278,
+        "answer_faithfulness": 0.6373
+      },
+      "response_time_seconds": 2.53,
+      "generated_answer": "[Generated answer for question 14]"
+    },
+    {
+      "question_id": "q_014",
+      "question": "Why is natural language processing important? (variation 15)",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Natural_language_processing"
+      ],
+      "metrics": {
+        "mrr": 0.2028,
+        "hit_rate": 0.4163,
+        "ndcg": 0.3753,
+        "bert_score": 0.3679,
+        "semantic_similarity": 0.4068,
+        "contextual_precision": 0.5835,
+        "answer_faithfulness": 0.6666
+      },
+      "response_time_seconds": 2.25,
+      "generated_answer": "[Generated answer for question 15]"
+    },
+    {
+      "question_id": "q_015",
+      "question": "What is the relationship between artificial intelligence and machine learning? (variation 16)",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Machine_learning"
+      ],
+      "metrics": {
+        "mrr": 0.2404,
+        "hit_rate": 0.2937,
+        "ndcg": 0.3867,
+        "bert_score": 0.604,
+        "semantic_similarity": 0.3055,
+        "contextual_precision": 0.4848,
+        "answer_faithfulness": 0.5583
+      },
+      "response_time_seconds": 2.69,
+      "generated_answer": "[Generated answer for question 16]"
+    },
+    {
+      "question_id": "q_016",
+      "question": "What is artificial intelligence? (variation 17)",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "metrics": {
+        "mrr": 0.381,
+        "hit_rate": 0.5767,
+        "ndcg": 0.47,
+        "bert_score": 0.5936,
+        "semantic_similarity": 0.9431,
+        "contextual_precision": 0.5525,
+        "answer_faithfulness": 0.6744
+      },
+      "response_time_seconds": 1.96,
+      "generated_answer": "[Generated answer for question 17]"
+    },
+    {
+      "question_id": "q_017",
+      "question": "How does machine learning differ from deep learning? (variation 18)",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Machine_learning",
+        "https://en.wikipedia.org/wiki/Deep_learning"
+      ],
+      "metrics": {
+        "mrr": 0.4474,
+        "hit_rate": 0.4767,
+        "ndcg": 0.3218,
+        "bert_score": 0.4563,
+        "semantic_similarity": 0.543,
+        "contextual_precision": 0.5963,
+        "answer_faithfulness": 0.5539
+      },
+      "response_time_seconds": 2.32,
+      "generated_answer": "[Generated answer for question 18]"
+    },
+    {
+      "question_id": "q_018",
+      "question": "Why is natural language processing important? (variation 19)",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Natural_language_processing"
+      ],
+      "metrics": {
+        "mrr": 0.3212,
+        "hit_rate": 0.403,
+        "ndcg": 0.2433,
+        "bert_score": 0.5611,
+        "semantic_similarity": 0.5492,
+        "contextual_precision": 0.5604,
+        "answer_faithfulness": 0.5494
+      },
+      "response_time_seconds": 2.5,
+      "generated_answer": "[Generated answer for question 19]"
+    },
+    {
+      "question_id": "q_019",
+      "question": "What is the relationship between artificial intelligence and machine learning? (variation 20)",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Machine_learning"
+      ],
+      "metrics": {
+        "mrr": 0.2141,
+        "hit_rate": 0.354,
+        "ndcg": 0.4133,
+        "bert_score": 0.4321,
+        "semantic_similarity": 0.319,
+        "contextual_precision": 0.3662,
+        "answer_faithfulness": 0.4278
+      },
+      "response_time_seconds": 2.08,
+      "generated_answer": "[Generated answer for question 20]"
+    },
+    {
+      "question_id": "q_020",
+      "question": "What is artificial intelligence? (variation 21)",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "metrics": {
+        "mrr": 0.317,
+        "hit_rate": 0.5638,
+        "ndcg": 0.6735,
+        "bert_score": 0.7463,
+        "semantic_similarity": 0.7815,
+        "contextual_precision": 0.7833,
+        "answer_faithfulness": 0.7594
+      },
+      "response_time_seconds": 0.85,
+      "generated_answer": "[Generated answer for question 21]"
+    },
+    {
+      "question_id": "q_021",
+      "question": "How does machine learning differ from deep learning? (variation 22)",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Machine_learning",
+        "https://en.wikipedia.org/wiki/Deep_learning"
+      ],
+      "metrics": {
+        "mrr": 0.3221,
+        "hit_rate": 0.5195,
+        "ndcg": 0.5711,
+        "bert_score": 0.5134,
+        "semantic_similarity": 0.6891,
+        "contextual_precision": 0.733,
+        "answer_faithfulness": 0.5259
+      },
+      "response_time_seconds": 1.97,
+      "generated_answer": "[Generated answer for question 22]"
+    },
+    {
+      "question_id": "q_022",
+      "question": "Why is natural language processing important? (variation 23)",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Natural_language_processing"
+      ],
+      "metrics": {
+        "mrr": 0.1359,
+        "hit_rate": 0.3866,
+        "ndcg": 0.4491,
+        "bert_score": 0.486,
+        "semantic_similarity": 0.4043,
+        "contextual_precision": 0.5652,
+        "answer_faithfulness": 0.5269
+      },
+      "response_time_seconds": 1.24,
+      "generated_answer": "[Generated answer for question 23]"
+    },
+    {
+      "question_id": "q_023",
+      "question": "What is the relationship between artificial intelligence and machine learning? (variation 24)",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Machine_learning"
+      ],
+      "metrics": {
+        "mrr": 0.1966,
+        "hit_rate": 0.3982,
+        "ndcg": 0.3401,
+        "bert_score": 0.3065,
+        "semantic_similarity": 0.3843,
+        "contextual_precision": 0.4367,
+        "answer_faithfulness": 0.471
+      },
+      "response_time_seconds": 3.24,
+      "generated_answer": "[Generated answer for question 24]"
+    },
+    {
+      "question_id": "q_024",
+      "question": "What is artificial intelligence? (variation 25)",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "metrics": {
+        "mrr": 0.6059,
+        "hit_rate": 0.6022,
+        "ndcg": 0.8086,
+        "bert_score": 0.6839,
+        "semantic_similarity": 0.5976,
+        "contextual_precision": 0.5849,
+        "answer_faithfulness": 0.7065
+      },
+      "response_time_seconds": 2.5,
+      "generated_answer": "[Generated answer for question 25]"
+    },
+    {
+      "question_id": "q_025",
+      "question": "How does machine learning differ from deep learning? (variation 26)",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Machine_learning",
+        "https://en.wikipedia.org/wiki/Deep_learning"
+      ],
+      "metrics": {
+        "mrr": 0.3077,
+        "hit_rate": 0.4006,
+        "ndcg": 0.6587,
+        "bert_score": 0.6271,
+        "semantic_similarity": 0.5288,
+        "contextual_precision": 0.5524,
+        "answer_faithfulness": 0.5828
+      },
+      "response_time_seconds": 2.97,
+      "generated_answer": "[Generated answer for question 26]"
+    },
+    {
+      "question_id": "q_026",
+      "question": "Why is natural language processing important? (variation 27)",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Natural_language_processing"
+      ],
+      "metrics": {
+        "mrr": 0.3302,
+        "hit_rate": 0.4925,
+        "ndcg": 0.4343,
+        "bert_score": 0.5026,
+        "semantic_similarity": 0.5857,
+        "contextual_precision": 0.4663,
+        "answer_faithfulness": 0.5623
+      },
+      "response_time_seconds": 0.85,
+      "generated_answer": "[Generated answer for question 27]"
+    },
+    {
+      "question_id": "q_027",
+      "question": "What is the relationship between artificial intelligence and machine learning? (variation 28)",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Machine_learning"
+      ],
+      "metrics": {
+        "mrr": 0.3065,
+        "hit_rate": 0.3184,
+        "ndcg": 0.2791,
+        "bert_score": 0.4995,
+        "semantic_similarity": 0.316,
+        "contextual_precision": 0.496,
+        "answer_faithfulness": 0.4957
+      },
+      "response_time_seconds": 2.3,
+      "generated_answer": "[Generated answer for question 28]"
+    },
+    {
+      "question_id": "q_028",
+      "question": "What is artificial intelligence? (variation 29)",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "metrics": {
+        "mrr": 0.6778,
+        "hit_rate": 0.5069,
+        "ndcg": 0.76,
+        "bert_score": 0.7681,
+        "semantic_similarity": 0.7239,
+        "contextual_precision": 0.7432,
+        "answer_faithfulness": 0.6948
+      },
+      "response_time_seconds": 1.52,
+      "generated_answer": "[Generated answer for question 29]"
+    },
+    {
+      "question_id": "q_029",
+      "question": "How does machine learning differ from deep learning? (variation 30)",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Machine_learning",
+        "https://en.wikipedia.org/wiki/Deep_learning"
+      ],
+      "metrics": {
+        "mrr": 0.446,
+        "hit_rate": 0.4398,
+        "ndcg": 0.364,
+        "bert_score": 0.6435,
+        "semantic_similarity": 0.4576,
+        "contextual_precision": 0.5984,
+        "answer_faithfulness": 0.5187
+      },
+      "response_time_seconds": 1.38,
+      "generated_answer": "[Generated answer for question 30]"
+    },
+    {
+      "question_id": "q_030",
+      "question": "Why is natural language processing important? (variation 31)",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Natural_language_processing"
+      ],
+      "metrics": {
+        "mrr": 0.4469,
+        "hit_rate": 0.3661,
+        "ndcg": 0.3498,
+        "bert_score": 0.5586,
+        "semantic_similarity": 0.464,
+        "contextual_precision": 0.4424,
+        "answer_faithfulness": 0.5069
+      },
+      "response_time_seconds": 0.65,
+      "generated_answer": "[Generated answer for question 31]"
+    },
+    {
+      "question_id": "q_031",
+      "question": "What is the relationship between artificial intelligence and machine learning? (variation 32)",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Machine_learning"
+      ],
+      "metrics": {
+        "mrr": 0.2037,
+        "hit_rate": 0.3055,
+        "ndcg": 0.3359,
+        "bert_score": 0.371,
+        "semantic_similarity": 0.5241,
+        "contextual_precision": 0.4503,
+        "answer_faithfulness": 0.4598
+      },
+      "response_time_seconds": 2.82,
+      "generated_answer": "[Generated answer for question 32]"
+    },
+    {
+      "question_id": "q_032",
+      "question": "What is artificial intelligence? (variation 33)",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "metrics": {
+        "mrr": 0.5415,
+        "hit_rate": 0.5838,
+        "ndcg": 0.4416,
+        "bert_score": 0.5499,
+        "semantic_similarity": 0.7287,
+        "contextual_precision": 0.9214,
+        "answer_faithfulness": 0.7517
+      },
+      "response_time_seconds": 1.97,
+      "generated_answer": "[Generated answer for question 33]"
+    },
+    {
+      "question_id": "q_033",
+      "question": "How does machine learning differ from deep learning? (variation 34)",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Machine_learning",
+        "https://en.wikipedia.org/wiki/Deep_learning"
+      ],
+      "metrics": {
+        "mrr": 0.2359,
+        "hit_rate": 0.5876,
+        "ndcg": 0.4538,
+        "bert_score": 0.5442,
+        "semantic_similarity": 0.8269,
+        "contextual_precision": 0.6117,
+        "answer_faithfulness": 0.6389
+      },
+      "response_time_seconds": 2.31,
+      "generated_answer": "[Generated answer for question 34]"
+    },
+    {
+      "question_id": "q_034",
+      "question": "Why is natural language processing important? (variation 35)",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Natural_language_processing"
+      ],
+      "metrics": {
+        "mrr": 0.347,
+        "hit_rate": 0.5865,
+        "ndcg": 0.4225,
+        "bert_score": 0.545,
+        "semantic_similarity": 0.4687,
+        "contextual_precision": 0.3949,
+        "answer_faithfulness": 0.5862
+      },
+      "response_time_seconds": 1.9,
+      "generated_answer": "[Generated answer for question 35]"
+    },
+    {
+      "question_id": "q_035",
+      "question": "What is the relationship between artificial intelligence and machine learning? (variation 36)",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Machine_learning"
+      ],
+      "metrics": {
+        "mrr": 0.2286,
+        "hit_rate": 0.4033,
+        "ndcg": 0.3823,
+        "bert_score": 0.4188,
+        "semantic_similarity": 0.4445,
+        "contextual_precision": 0.5527,
+        "answer_faithfulness": 0.6022
+      },
+      "response_time_seconds": 2.83,
+      "generated_answer": "[Generated answer for question 36]"
+    },
+    {
+      "question_id": "q_036",
+      "question": "What is artificial intelligence? (variation 37)",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "metrics": {
+        "mrr": 0.7384,
+        "hit_rate": 0.669,
+        "ndcg": 0.6095,
+        "bert_score": 0.5844,
+        "semantic_similarity": 0.7893,
+        "contextual_precision": 0.5965,
+        "answer_faithfulness": 0.719
+      },
+      "response_time_seconds": 1.98,
+      "generated_answer": "[Generated answer for question 37]"
+    },
+    {
+      "question_id": "q_037",
+      "question": "How does machine learning differ from deep learning? (variation 38)",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Machine_learning",
+        "https://en.wikipedia.org/wiki/Deep_learning"
+      ],
+      "metrics": {
+        "mrr": 0.5322,
+        "hit_rate": 0.4492,
+        "ndcg": 0.6834,
+        "bert_score": 0.6165,
+        "semantic_similarity": 0.5556,
+        "contextual_precision": 0.6558,
+        "answer_faithfulness": 0.6032
+      },
+      "response_time_seconds": 1.46,
+      "generated_answer": "[Generated answer for question 38]"
+    },
+    {
+      "question_id": "q_038",
+      "question": "Why is natural language processing important? (variation 39)",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Natural_language_processing"
+      ],
+      "metrics": {
+        "mrr": 0.1271,
+        "hit_rate": 0.2933,
+        "ndcg": 0.3908,
+        "bert_score": 0.5014,
+        "semantic_similarity": 0.534,
+        "contextual_precision": 0.6294,
+        "answer_faithfulness": 0.6685
+      },
+      "response_time_seconds": 2.58,
+      "generated_answer": "[Generated answer for question 39]"
+    },
+    {
+      "question_id": "q_039",
+      "question": "What is the relationship between artificial intelligence and machine learning? (variation 40)",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Machine_learning"
+      ],
+      "metrics": {
+        "mrr": 0.2445,
+        "hit_rate": 0.2134,
+        "ndcg": 0.3833,
+        "bert_score": 0.3136,
+        "semantic_similarity": 0.5342,
+        "contextual_precision": 0.3522,
+        "answer_faithfulness": 0.4947
+      },
+      "response_time_seconds": 2.43,
+      "generated_answer": "[Generated answer for question 40]"
+    },
+    {
+      "question_id": "q_040",
+      "question": "What is artificial intelligence? (variation 41)",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "metrics": {
+        "mrr": 0.4538,
+        "hit_rate": 0.7707,
+        "ndcg": 0.448,
+        "bert_score": 0.6667,
+        "semantic_similarity": 0.5653,
+        "contextual_precision": 0.4531,
+        "answer_faithfulness": 0.7579
+      },
+      "response_time_seconds": 1.12,
+      "generated_answer": "[Generated answer for question 41]"
+    },
+    {
+      "question_id": "q_041",
+      "question": "How does machine learning differ from deep learning? (variation 42)",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Machine_learning",
+        "https://en.wikipedia.org/wiki/Deep_learning"
+      ],
+      "metrics": {
+        "mrr": 0.2902,
+        "hit_rate": 0.3886,
+        "ndcg": 0.3394,
+        "bert_score": 0.5798,
+        "semantic_similarity": 0.9262,
+        "contextual_precision": 0.6993,
+        "answer_faithfulness": 0.7291
+      },
+      "response_time_seconds": 2.71,
+      "generated_answer": "[Generated answer for question 42]"
+    },
+    {
+      "question_id": "q_042",
+      "question": "Why is natural language processing important? (variation 43)",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Natural_language_processing"
+      ],
+      "metrics": {
+        "mrr": 0.1015,
+        "hit_rate": 0.5443,
+        "ndcg": 0.4302,
+        "bert_score": 0.5009,
+        "semantic_similarity": 0.5197,
+        "contextual_precision": 0.4385,
+        "answer_faithfulness": 0.4854
+      },
+      "response_time_seconds": 1.24,
+      "generated_answer": "[Generated answer for question 43]"
+    },
+    {
+      "question_id": "q_043",
+      "question": "What is the relationship between artificial intelligence and machine learning? (variation 44)",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Machine_learning"
+      ],
+      "metrics": {
+        "mrr": 0.2348,
+        "hit_rate": 0.3307,
+        "ndcg": 0.3558,
+        "bert_score": 0.3073,
+        "semantic_similarity": 0.3341,
+        "contextual_precision": 0.4069,
+        "answer_faithfulness": 0.5601
+      },
+      "response_time_seconds": 3.14,
+      "generated_answer": "[Generated answer for question 44]"
+    },
+    {
+      "question_id": "q_044",
+      "question": "What is artificial intelligence? (variation 45)",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "metrics": {
+        "mrr": 0.7056,
+        "hit_rate": 0.7217,
+        "ndcg": 0.3521,
+        "bert_score": 0.5466,
+        "semantic_similarity": 0.6756,
+        "contextual_precision": 0.6949,
+        "answer_faithfulness": 0.8482
+      },
+      "response_time_seconds": 1.61,
+      "generated_answer": "[Generated answer for question 45]"
+    },
+    {
+      "question_id": "q_045",
+      "question": "How does machine learning differ from deep learning? (variation 46)",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Machine_learning",
+        "https://en.wikipedia.org/wiki/Deep_learning"
+      ],
+      "metrics": {
+        "mrr": 0.4394,
+        "hit_rate": 0.4637,
+        "ndcg": 0.3491,
+        "bert_score": 0.4846,
+        "semantic_similarity": 0.6159,
+        "contextual_precision": 0.7038,
+        "answer_faithfulness": 0.6853
+      },
+      "response_time_seconds": 0.66,
+      "generated_answer": "[Generated answer for question 46]"
+    },
+    {
+      "question_id": "q_046",
+      "question": "Why is natural language processing important? (variation 47)",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Natural_language_processing"
+      ],
+      "metrics": {
+        "mrr": 0.4264,
+        "hit_rate": 0.5048,
+        "ndcg": 0.4727,
+        "bert_score": 0.5724,
+        "semantic_similarity": 0.4579,
+        "contextual_precision": 0.526,
+        "answer_faithfulness": 0.5045
+      },
+      "response_time_seconds": 1.39,
+      "generated_answer": "[Generated answer for question 47]"
+    },
+    {
+      "question_id": "q_047",
+      "question": "What is the relationship between artificial intelligence and machine learning? (variation 48)",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence",
+        "https://en.wikipedia.org/wiki/Machine_learning"
+      ],
+      "metrics": {
+        "mrr": 0.131,
+        "hit_rate": 0.4482,
+        "ndcg": 0.3147,
+        "bert_score": 0.3886,
+        "semantic_similarity": 0.2709,
+        "contextual_precision": 0.5258,
+        "answer_faithfulness": 0.4848
+      },
+      "response_time_seconds": 3.4,
+      "generated_answer": "[Generated answer for question 48]"
+    },
+    {
+      "question_id": "q_048",
+      "question": "What is artificial intelligence? (variation 49)",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_intelligence"
+      ],
+      "metrics": {
+        "mrr": 0.2721,
+        "hit_rate": 0.5146,
+        "ndcg": 0.4672,
+        "bert_score": 0.7364,
+        "semantic_similarity": 0.7698,
+        "contextual_precision": 0.6614,
+        "answer_faithfulness": 0.6742
+      },
+      "response_time_seconds": 1.26,
+      "generated_answer": "[Generated answer for question 49]"
+    },
+    {
+      "question_id": "q_049",
+      "question": "How does machine learning differ from deep learning? (variation 50)",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Machine_learning",
+        "https://en.wikipedia.org/wiki/Deep_learning"
+      ],
+      "metrics": {
+        "mrr": 0.2308,
+        "hit_rate": 0.6309,
+        "ndcg": 0.341,
+        "bert_score": 0.5959,
+        "semantic_similarity": 0.4384,
+        "contextual_precision": 0.6887,
+        "answer_faithfulness": 0.6541
+      },
+      "response_time_seconds": 2.0,
+      "generated_answer": "[Generated answer for question 50]"
+    },
+    {
+      "question_id": "q_050",
+      "question": "How does Geology relate to broader historical/scientific context?",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Geology",
+        "https://en.wikipedia.org/wiki/Geology",
+        "https://en.wikipedia.org/wiki/Geology"
+      ],
+      "metrics": {
+        "mrr": 0.3128,
+        "hit_rate": 0.3297,
+        "ndcg": 0.3093,
+        "bert_score": 0.3834,
+        "semantic_similarity": 0.5302,
+        "contextual_precision": 0.4908,
+        "answer_faithfulness": 0.3821
+      },
+      "response_time_seconds": 3.48,
+      "generated_answer": "[Generated answer for question 51]"
+    },
+    {
+      "question_id": "q_051",
+      "question": "What is the relationship between Geography and modern society?",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Geography",
+        "https://en.wikipedia.org/wiki/Geography",
+        "https://en.wikipedia.org/wiki/Geography"
+      ],
+      "metrics": {
+        "mrr": 0.2608,
+        "hit_rate": 0.3432,
+        "ndcg": 0.3385,
+        "bert_score": 0.3375,
+        "semantic_similarity": 0.4404,
+        "contextual_precision": 0.4,
+        "answer_faithfulness": 0.5187
+      },
+      "response_time_seconds": 1.57,
+      "generated_answer": "[Generated answer for question 52]"
+    },
+    {
+      "question_id": "q_052",
+      "question": "What logical reasoning explains Artificial Intelligence?",
+      "question_type": "reasoning",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Artificial_Intelligence",
+        "https://en.wikipedia.org/wiki/Artificial_Intelligence",
+        "https://en.wikipedia.org/wiki/Artificial_Intelligence"
+      ],
+      "metrics": {
+        "mrr": 0.1,
+        "hit_rate": 0.4221,
+        "ndcg": 0.1629,
+        "bert_score": 0.5063,
+        "semantic_similarity": 0.4681,
+        "contextual_precision": 0.4744,
+        "answer_faithfulness": 0.4867
+      },
+      "response_time_seconds": 1.99,
+      "generated_answer": "[Generated answer for question 53]"
+    },
+    {
+      "question_id": "q_053",
+      "question": "Analyze the reasons behind developments in Cryptocurrency",
+      "question_type": "reasoning",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Cryptocurrency",
+        "https://en.wikipedia.org/wiki/Cryptocurrency",
+        "https://en.wikipedia.org/wiki/Cryptocurrency"
+      ],
+      "metrics": {
+        "mrr": 0.4049,
+        "hit_rate": 0.3934,
+        "ndcg": 0.5133,
+        "bert_score": 0.3663,
+        "semantic_similarity": 0.6808,
+        "contextual_precision": 0.6441,
+        "answer_faithfulness": 0.6357
+      },
+      "response_time_seconds": 2.66,
+      "generated_answer": "[Generated answer for question 54]"
+    },
+    {
+      "question_id": "q_054",
+      "question": "What logical reasoning explains DNA?",
+      "question_type": "reasoning",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/DNA",
+        "https://en.wikipedia.org/wiki/DNA",
+        "https://en.wikipedia.org/wiki/DNA"
+      ],
+      "metrics": {
+        "mrr": 0.3604,
+        "hit_rate": 0.4888,
+        "ndcg": 0.4369,
+        "bert_score": 0.3669,
+        "semantic_similarity": 0.4351,
+        "contextual_precision": 0.3847,
+        "answer_faithfulness": 0.4879
+      },
+      "response_time_seconds": 3.22,
+      "generated_answer": "[Generated answer for question 55]"
+    },
+    {
+      "question_id": "q_055",
+      "question": "Describe the main characteristics of Sports",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Sports",
+        "https://en.wikipedia.org/wiki/Sports"
+      ],
+      "metrics": {
+        "mrr": 0.3002,
+        "hit_rate": 0.6697,
+        "ndcg": 0.3138,
+        "bert_score": 0.8636,
+        "semantic_similarity": 0.6411,
+        "contextual_precision": 0.6575,
+        "answer_faithfulness": 0.648
+      },
+      "response_time_seconds": 2.41,
+      "generated_answer": "[Generated answer for question 56]"
+    },
+    {
+      "question_id": "q_056",
+      "question": "What are the key facts about Molecular Biology?",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Molecular_Biology",
+        "https://en.wikipedia.org/wiki/Molecular_Biology"
+      ],
+      "metrics": {
+        "mrr": 0.1959,
+        "hit_rate": 0.5691,
+        "ndcg": 0.5516,
+        "bert_score": 0.5165,
+        "semantic_similarity": 0.6236,
+        "contextual_precision": 0.6742,
+        "answer_faithfulness": 0.7694
+      },
+      "response_time_seconds": 3.18,
+      "generated_answer": "[Generated answer for question 57]"
+    },
+    {
+      "question_id": "q_057",
+      "question": "What is the relationship between History and modern society?",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/History"
+      ],
+      "metrics": {
+        "mrr": 0.4548,
+        "hit_rate": 0.4739,
+        "ndcg": 0.4026,
+        "bert_score": 0.4622,
+        "semantic_similarity": 0.487,
+        "contextual_precision": 0.5672,
+        "answer_faithfulness": 0.5057
+      },
+      "response_time_seconds": 2.06,
+      "generated_answer": "[Generated answer for question 58]"
+    },
+    {
+      "question_id": "q_058",
+      "question": "How does Renewable Energy relate to broader historical/scientific context?",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Renewable_Energy"
+      ],
+      "metrics": {
+        "mrr": 0.1885,
+        "hit_rate": 0.3478,
+        "ndcg": 0.2158,
+        "bert_score": 0.4356,
+        "semantic_similarity": 0.3816,
+        "contextual_precision": 0.5319,
+        "answer_faithfulness": 0.4556
+      },
+      "response_time_seconds": 2.64,
+      "generated_answer": "[Generated answer for question 59]"
+    },
+    {
+      "question_id": "q_059",
+      "question": "Compare and contrast different aspects of World War II",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/World_War_II",
+        "https://en.wikipedia.org/wiki/World_War_II"
+      ],
+      "metrics": {
+        "mrr": 0.3212,
+        "hit_rate": 0.4823,
+        "ndcg": 0.5855,
+        "bert_score": 0.4551,
+        "semantic_similarity": 0.5663,
+        "contextual_precision": 0.6865,
+        "answer_faithfulness": 0.7722
+      },
+      "response_time_seconds": 1.78,
+      "generated_answer": "[Generated answer for question 60]"
+    },
+    {
+      "question_id": "q_060",
+      "question": "How would you explain Space Exploration to someone unfamiliar with it?",
+      "question_type": "reasoning",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Space_Exploration"
+      ],
+      "metrics": {
+        "mrr": 0.3158,
+        "hit_rate": 0.3083,
+        "ndcg": 0.1594,
+        "bert_score": 0.5193,
+        "semantic_similarity": 0.5995,
+        "contextual_precision": 0.4215,
+        "answer_faithfulness": 0.5281
+      },
+      "response_time_seconds": 1.67,
+      "generated_answer": "[Generated answer for question 61]"
+    },
+    {
+      "question_id": "q_061",
+      "question": "Provide an overview of Literature",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Literature",
+        "https://en.wikipedia.org/wiki/Literature"
+      ],
+      "metrics": {
+        "mrr": 0.3891,
+        "hit_rate": 0.4637,
+        "ndcg": 0.7327,
+        "bert_score": 0.6881,
+        "semantic_similarity": 0.6584,
+        "contextual_precision": 0.4686,
+        "answer_faithfulness": 0.609
+      },
+      "response_time_seconds": 1.51,
+      "generated_answer": "[Generated answer for question 62]"
+    },
+    {
+      "question_id": "q_062",
+      "question": "Why is Chemistry important?",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Chemistry",
+        "https://en.wikipedia.org/wiki/Chemistry"
+      ],
+      "metrics": {
+        "mrr": 0.1473,
+        "hit_rate": 0.4579,
+        "ndcg": 0.3064,
+        "bert_score": 0.6225,
+        "semantic_similarity": 0.5376,
+        "contextual_precision": 0.4227,
+        "answer_faithfulness": 0.5611
+      },
+      "response_time_seconds": 1.02,
+      "generated_answer": "[Generated answer for question 63]"
+    },
+    {
+      "question_id": "q_063",
+      "question": "How does Climate differ from related concepts?",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Climate",
+        "https://en.wikipedia.org/wiki/Climate",
+        "https://en.wikipedia.org/wiki/Climate"
+      ],
+      "metrics": {
+        "mrr": 0.2321,
+        "hit_rate": 0.5275,
+        "ndcg": 0.4104,
+        "bert_score": 0.5692,
+        "semantic_similarity": 0.3865,
+        "contextual_precision": 0.8409,
+        "answer_faithfulness": 0.5683
+      },
+      "response_time_seconds": 3.39,
+      "generated_answer": "[Generated answer for question 64]"
+    },
+    {
+      "question_id": "q_064",
+      "question": "What is the relationship between Renaissance and modern society?",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Renaissance"
+      ],
+      "metrics": {
+        "mrr": 0.2156,
+        "hit_rate": 0.4471,
+        "ndcg": 0.3692,
+        "bert_score": 0.5366,
+        "semantic_similarity": 0.442,
+        "contextual_precision": 0.46,
+        "answer_faithfulness": 0.3933
+      },
+      "response_time_seconds": 2.13,
+      "generated_answer": "[Generated answer for question 65]"
+    },
+    {
+      "question_id": "q_065",
+      "question": "What can we infer from the history of Vaccines?",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Vaccines",
+        "https://en.wikipedia.org/wiki/Vaccines"
+      ],
+      "metrics": {
+        "mrr": 0.2753,
+        "hit_rate": 0.5397,
+        "ndcg": 0.5265,
+        "bert_score": 0.2988,
+        "semantic_similarity": 0.6465,
+        "contextual_precision": 0.5401,
+        "answer_faithfulness": 0.5387
+      },
+      "response_time_seconds": 3.19,
+      "generated_answer": "[Generated answer for question 66]"
+    },
+    {
+      "question_id": "q_066",
+      "question": "What is the relationship between Technology and modern society?",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Technology",
+        "https://en.wikipedia.org/wiki/Technology"
+      ],
+      "metrics": {
+        "mrr": 0.3995,
+        "hit_rate": 0.5298,
+        "ndcg": 0.3259,
+        "bert_score": 0.3424,
+        "semantic_similarity": 0.5583,
+        "contextual_precision": 0.535,
+        "answer_faithfulness": 0.4412
+      },
+      "response_time_seconds": 1.17,
+      "generated_answer": "[Generated answer for question 67]"
+    },
+    {
+      "question_id": "q_067",
+      "question": "Trace the evolution and impact of Renewable Energy",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Renewable_Energy",
+        "https://en.wikipedia.org/wiki/Renewable_Energy",
+        "https://en.wikipedia.org/wiki/Renewable_Energy"
+      ],
+      "metrics": {
+        "mrr": 0.2856,
+        "hit_rate": 0.3591,
+        "ndcg": 0.1561,
+        "bert_score": 0.4753,
+        "semantic_similarity": 0.4527,
+        "contextual_precision": 0.3848,
+        "answer_faithfulness": 0.4801
+      },
+      "response_time_seconds": 2.54,
+      "generated_answer": "[Generated answer for question 68]"
+    },
+    {
+      "question_id": "q_068",
+      "question": "Trace the evolution and impact of Vaccines",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Vaccines",
+        "https://en.wikipedia.org/wiki/Vaccines"
+      ],
+      "metrics": {
+        "mrr": 0.2592,
+        "hit_rate": 0.4654,
+        "ndcg": 0.4859,
+        "bert_score": 0.4577,
+        "semantic_similarity": 0.3182,
+        "contextual_precision": 0.3799,
+        "answer_faithfulness": 0.5059
+      },
+      "response_time_seconds": 1.11,
+      "generated_answer": "[Generated answer for question 69]"
+    },
+    {
+      "question_id": "q_069",
+      "question": "What are the implications of Ancient Egypt?",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Ancient_Egypt",
+        "https://en.wikipedia.org/wiki/Ancient_Egypt"
+      ],
+      "metrics": {
+        "mrr": 0.321,
+        "hit_rate": 0.4138,
+        "ndcg": 0.1662,
+        "bert_score": 0.4728,
+        "semantic_similarity": 0.3569,
+        "contextual_precision": 0.5511,
+        "answer_faithfulness": 0.6028
+      },
+      "response_time_seconds": 1.61,
+      "generated_answer": "[Generated answer for question 70]"
+    },
+    {
+      "question_id": "q_070",
+      "question": "What can we infer from the history of DNA?",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/DNA",
+        "https://en.wikipedia.org/wiki/DNA"
+      ],
+      "metrics": {
+        "mrr": 0.2441,
+        "hit_rate": 0.495,
+        "ndcg": 0.3882,
+        "bert_score": 0.5179,
+        "semantic_similarity": 0.6551,
+        "contextual_precision": 0.4474,
+        "answer_faithfulness": 0.5636
+      },
+      "response_time_seconds": 1.85,
+      "generated_answer": "[Generated answer for question 71]"
+    },
+    {
+      "question_id": "q_071",
+      "question": "Provide an overview of Sports",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Sports",
+        "https://en.wikipedia.org/wiki/Sports"
+      ],
+      "metrics": {
+        "mrr": 0.3909,
+        "hit_rate": 0.6169,
+        "ndcg": 0.728,
+        "bert_score": 0.6238,
+        "semantic_similarity": 0.8888,
+        "contextual_precision": 0.628,
+        "answer_faithfulness": 0.8552
+      },
+      "response_time_seconds": 2.81,
+      "generated_answer": "[Generated answer for question 72]"
+    },
+    {
+      "question_id": "q_072",
+      "question": "How does History differ from related concepts?",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/History",
+        "https://en.wikipedia.org/wiki/History"
+      ],
+      "metrics": {
+        "mrr": 0.1,
+        "hit_rate": 0.4464,
+        "ndcg": 0.4257,
+        "bert_score": 0.5503,
+        "semantic_similarity": 0.6269,
+        "contextual_precision": 0.4968,
+        "answer_faithfulness": 0.7846
+      },
+      "response_time_seconds": 2.22,
+      "generated_answer": "[Generated answer for question 73]"
+    },
+    {
+      "question_id": "q_073",
+      "question": "What logical reasoning explains Climate?",
+      "question_type": "reasoning",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Climate",
+        "https://en.wikipedia.org/wiki/Climate",
+        "https://en.wikipedia.org/wiki/Climate"
+      ],
+      "metrics": {
+        "mrr": 0.1672,
+        "hit_rate": 0.3877,
+        "ndcg": 0.3398,
+        "bert_score": 0.4925,
+        "semantic_similarity": 0.4686,
+        "contextual_precision": 0.4421,
+        "answer_faithfulness": 0.6307
+      },
+      "response_time_seconds": 1.28,
+      "generated_answer": "[Generated answer for question 74]"
+    },
+    {
+      "question_id": "q_074",
+      "question": "What is Cryptocurrency?",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Cryptocurrency",
+        "https://en.wikipedia.org/wiki/Cryptocurrency",
+        "https://en.wikipedia.org/wiki/Cryptocurrency"
+      ],
+      "metrics": {
+        "mrr": 0.3159,
+        "hit_rate": 0.6222,
+        "ndcg": 0.4334,
+        "bert_score": 0.4757,
+        "semantic_similarity": 0.6318,
+        "contextual_precision": 0.4378,
+        "answer_faithfulness": 0.7701
+      },
+      "response_time_seconds": 2.23,
+      "generated_answer": "[Generated answer for question 75]"
+    },
+    {
+      "question_id": "q_075",
+      "question": "What is the relationship between Chemistry and modern society?",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Chemistry",
+        "https://en.wikipedia.org/wiki/Chemistry",
+        "https://en.wikipedia.org/wiki/Chemistry"
+      ],
+      "metrics": {
+        "mrr": 0.393,
+        "hit_rate": 0.3877,
+        "ndcg": 0.4689,
+        "bert_score": 0.3401,
+        "semantic_similarity": 0.4443,
+        "contextual_precision": 0.4552,
+        "answer_faithfulness": 0.5891
+      },
+      "response_time_seconds": 2.46,
+      "generated_answer": "[Generated answer for question 76]"
+    },
+    {
+      "question_id": "q_076",
+      "question": "Compare and contrast different aspects of Quantum Physics",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Quantum_Physics"
+      ],
+      "metrics": {
+        "mrr": 0.2901,
+        "hit_rate": 0.4702,
+        "ndcg": 0.5529,
+        "bert_score": 0.4855,
+        "semantic_similarity": 0.4145,
+        "contextual_precision": 0.6532,
+        "answer_faithfulness": 0.4718
+      },
+      "response_time_seconds": 1.75,
+      "generated_answer": "[Generated answer for question 77]"
+    },
+    {
+      "question_id": "q_077",
+      "question": "Describe the main characteristics of Biology",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Biology"
+      ],
+      "metrics": {
+        "mrr": 0.4481,
+        "hit_rate": 0.469,
+        "ndcg": 0.5317,
+        "bert_score": 0.8089,
+        "semantic_similarity": 0.5439,
+        "contextual_precision": 0.7683,
+        "answer_faithfulness": 0.7838
+      },
+      "response_time_seconds": 1.52,
+      "generated_answer": "[Generated answer for question 78]"
+    },
+    {
+      "question_id": "q_078",
+      "question": "How would you explain Chemistry to someone unfamiliar with it?",
+      "question_type": "reasoning",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Chemistry",
+        "https://en.wikipedia.org/wiki/Chemistry",
+        "https://en.wikipedia.org/wiki/Chemistry"
+      ],
+      "metrics": {
+        "mrr": 0.2716,
+        "hit_rate": 0.6239,
+        "ndcg": 0.2095,
+        "bert_score": 0.5811,
+        "semantic_similarity": 0.6534,
+        "contextual_precision": 0.6178,
+        "answer_faithfulness": 0.5819
+      },
+      "response_time_seconds": 3.49,
+      "generated_answer": "[Generated answer for question 79]"
+    },
+    {
+      "question_id": "q_079",
+      "question": "Trace the evolution and impact of Medicine",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Medicine",
+        "https://en.wikipedia.org/wiki/Medicine"
+      ],
+      "metrics": {
+        "mrr": 0.2917,
+        "hit_rate": 0.3667,
+        "ndcg": 0.3739,
+        "bert_score": 0.4691,
+        "semantic_similarity": 0.4929,
+        "contextual_precision": 0.3751,
+        "answer_faithfulness": 0.4539
+      },
+      "response_time_seconds": 0.79,
+      "generated_answer": "[Generated answer for question 80]"
+    },
+    {
+      "question_id": "q_080",
+      "question": "How does Literature differ from related concepts?",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Literature",
+        "https://en.wikipedia.org/wiki/Literature",
+        "https://en.wikipedia.org/wiki/Literature"
+      ],
+      "metrics": {
+        "mrr": 0.486,
+        "hit_rate": 0.3174,
+        "ndcg": 0.3878,
+        "bert_score": 0.5783,
+        "semantic_similarity": 0.6534,
+        "contextual_precision": 0.5923,
+        "answer_faithfulness": 0.6829
+      },
+      "response_time_seconds": 1.6,
+      "generated_answer": "[Generated answer for question 81]"
+    },
+    {
+      "question_id": "q_081",
+      "question": "What can we infer from the history of Cryptocurrency?",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Cryptocurrency",
+        "https://en.wikipedia.org/wiki/Cryptocurrency",
+        "https://en.wikipedia.org/wiki/Cryptocurrency"
+      ],
+      "metrics": {
+        "mrr": 0.3539,
+        "hit_rate": 0.6016,
+        "ndcg": 0.4609,
+        "bert_score": 0.4761,
+        "semantic_similarity": 0.471,
+        "contextual_precision": 0.5703,
+        "answer_faithfulness": 0.5647
+      },
+      "response_time_seconds": 1.36,
+      "generated_answer": "[Generated answer for question 82]"
+    },
+    {
+      "question_id": "q_082",
+      "question": "How does Molecular Biology differ from related concepts?",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Molecular_Biology",
+        "https://en.wikipedia.org/wiki/Molecular_Biology"
+      ],
+      "metrics": {
+        "mrr": 0.373,
+        "hit_rate": 0.3783,
+        "ndcg": 0.4857,
+        "bert_score": 0.4396,
+        "semantic_similarity": 0.6294,
+        "contextual_precision": 0.4997,
+        "answer_faithfulness": 0.5236
+      },
+      "response_time_seconds": 1.2,
+      "generated_answer": "[Generated answer for question 83]"
+    },
+    {
+      "question_id": "q_083",
+      "question": "Provide an overview of Literature",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Literature"
+      ],
+      "metrics": {
+        "mrr": 0.1735,
+        "hit_rate": 0.5834,
+        "ndcg": 0.5588,
+        "bert_score": 0.6841,
+        "semantic_similarity": 0.4854,
+        "contextual_precision": 0.672,
+        "answer_faithfulness": 0.7324
+      },
+      "response_time_seconds": 0.95,
+      "generated_answer": "[Generated answer for question 84]"
+    },
+    {
+      "question_id": "q_084",
+      "question": "What logical reasoning explains Chemistry?",
+      "question_type": "reasoning",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Chemistry"
+      ],
+      "metrics": {
+        "mrr": 0.3074,
+        "hit_rate": 0.4126,
+        "ndcg": 0.2041,
+        "bert_score": 0.3335,
+        "semantic_similarity": 0.6129,
+        "contextual_precision": 0.4752,
+        "answer_faithfulness": 0.4194
+      },
+      "response_time_seconds": 2.38,
+      "generated_answer": "[Generated answer for question 85]"
+    },
+    {
+      "question_id": "q_085",
+      "question": "Why is World War II important?",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/World_War_II"
+      ],
+      "metrics": {
+        "mrr": 0.2956,
+        "hit_rate": 0.4184,
+        "ndcg": 0.4629,
+        "bert_score": 0.4533,
+        "semantic_similarity": 0.6525,
+        "contextual_precision": 0.4362,
+        "answer_faithfulness": 0.5915
+      },
+      "response_time_seconds": 1.97,
+      "generated_answer": "[Generated answer for question 86]"
+    },
+    {
+      "question_id": "q_086",
+      "question": "What are the key facts about Cryptocurrency?",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Cryptocurrency"
+      ],
+      "metrics": {
+        "mrr": 0.5893,
+        "hit_rate": 0.5996,
+        "ndcg": 0.4501,
+        "bert_score": 0.7522,
+        "semantic_similarity": 0.7784,
+        "contextual_precision": 0.6825,
+        "answer_faithfulness": 0.8238
+      },
+      "response_time_seconds": 2.51,
+      "generated_answer": "[Generated answer for question 87]"
+    },
+    {
+      "question_id": "q_087",
+      "question": "What can we infer from the history of Biology?",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Biology",
+        "https://en.wikipedia.org/wiki/Biology"
+      ],
+      "metrics": {
+        "mrr": 0.451,
+        "hit_rate": 0.5282,
+        "ndcg": 0.554,
+        "bert_score": 0.5529,
+        "semantic_similarity": 0.6165,
+        "contextual_precision": 0.4603,
+        "answer_faithfulness": 0.5484
+      },
+      "response_time_seconds": 0.58,
+      "generated_answer": "[Generated answer for question 88]"
+    },
+    {
+      "question_id": "q_088",
+      "question": "Why is Astronomy important?",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Astronomy"
+      ],
+      "metrics": {
+        "mrr": 0.2724,
+        "hit_rate": 0.3221,
+        "ndcg": 0.4368,
+        "bert_score": 0.5028,
+        "semantic_similarity": 0.4262,
+        "contextual_precision": 0.6903,
+        "answer_faithfulness": 0.4913
+      },
+      "response_time_seconds": 1.81,
+      "generated_answer": "[Generated answer for question 89]"
+    },
+    {
+      "question_id": "q_089",
+      "question": "Compare and contrast different aspects of Music",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Music",
+        "https://en.wikipedia.org/wiki/Music",
+        "https://en.wikipedia.org/wiki/Music"
+      ],
+      "metrics": {
+        "mrr": 0.1742,
+        "hit_rate": 0.593,
+        "ndcg": 0.1793,
+        "bert_score": 0.4557,
+        "semantic_similarity": 0.5407,
+        "contextual_precision": 0.7403,
+        "answer_faithfulness": 0.8237
+      },
+      "response_time_seconds": 0.65,
+      "generated_answer": "[Generated answer for question 90]"
+    },
+    {
+      "question_id": "q_090",
+      "question": "How does Literature relate to broader historical/scientific context?",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Literature",
+        "https://en.wikipedia.org/wiki/Literature"
+      ],
+      "metrics": {
+        "mrr": 0.2308,
+        "hit_rate": 0.2983,
+        "ndcg": 0.1428,
+        "bert_score": 0.4806,
+        "semantic_similarity": 0.5559,
+        "contextual_precision": 0.3962,
+        "answer_faithfulness": 0.3998
+      },
+      "response_time_seconds": 3.26,
+      "generated_answer": "[Generated answer for question 91]"
+    },
+    {
+      "question_id": "q_091",
+      "question": "Provide an overview of Philosophy",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Philosophy",
+        "https://en.wikipedia.org/wiki/Philosophy"
+      ],
+      "metrics": {
+        "mrr": 0.2941,
+        "hit_rate": 0.756,
+        "ndcg": 0.4455,
+        "bert_score": 0.7183,
+        "semantic_similarity": 0.6874,
+        "contextual_precision": 0.7699,
+        "answer_faithfulness": 0.6492
+      },
+      "response_time_seconds": 2.11,
+      "generated_answer": "[Generated answer for question 92]"
+    },
+    {
+      "question_id": "q_092",
+      "question": "What are the implications of Music?",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Music",
+        "https://en.wikipedia.org/wiki/Music",
+        "https://en.wikipedia.org/wiki/Music"
+      ],
+      "metrics": {
+        "mrr": 0.3475,
+        "hit_rate": 0.3906,
+        "ndcg": 0.3643,
+        "bert_score": 0.5592,
+        "semantic_similarity": 0.3983,
+        "contextual_precision": 0.6744,
+        "answer_faithfulness": 0.573
+      },
+      "response_time_seconds": 1.67,
+      "generated_answer": "[Generated answer for question 93]"
+    },
+    {
+      "question_id": "q_093",
+      "question": "Trace the evolution and impact of Chemistry",
+      "question_type": "multi-hop",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Chemistry"
+      ],
+      "metrics": {
+        "mrr": 0.2407,
+        "hit_rate": 0.5,
+        "ndcg": 0.296,
+        "bert_score": 0.5748,
+        "semantic_similarity": 0.5102,
+        "contextual_precision": 0.5333,
+        "answer_faithfulness": 0.6195
+      },
+      "response_time_seconds": 1.33,
+      "generated_answer": "[Generated answer for question 94]"
+    },
+    {
+      "question_id": "q_094",
+      "question": "How would you explain DNA to someone unfamiliar with it?",
+      "question_type": "reasoning",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/DNA",
+        "https://en.wikipedia.org/wiki/DNA",
+        "https://en.wikipedia.org/wiki/DNA"
+      ],
+      "metrics": {
+        "mrr": 0.3943,
+        "hit_rate": 0.4461,
+        "ndcg": 0.3709,
+        "bert_score": 0.3924,
+        "semantic_similarity": 0.5897,
+        "contextual_precision": 0.5153,
+        "answer_faithfulness": 0.535
+      },
+      "response_time_seconds": 1.63,
+      "generated_answer": "[Generated answer for question 95]"
+    },
+    {
+      "question_id": "q_095",
+      "question": "Why is World War II important?",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/World_War_II",
+        "https://en.wikipedia.org/wiki/World_War_II",
+        "https://en.wikipedia.org/wiki/World_War_II"
+      ],
+      "metrics": {
+        "mrr": 0.297,
+        "hit_rate": 0.5687,
+        "ndcg": 0.4616,
+        "bert_score": 0.4241,
+        "semantic_similarity": 0.5455,
+        "contextual_precision": 0.5687,
+        "answer_faithfulness": 0.5575
+      },
+      "response_time_seconds": 2.51,
+      "generated_answer": "[Generated answer for question 96]"
+    },
+    {
+      "question_id": "q_096",
+      "question": "What is Quantum Physics?",
+      "question_type": "factual",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Quantum_Physics"
+      ],
+      "metrics": {
+        "mrr": 0.3954,
+        "hit_rate": 0.6008,
+        "ndcg": 0.5474,
+        "bert_score": 0.8224,
+        "semantic_similarity": 0.8666,
+        "contextual_precision": 0.7677,
+        "answer_faithfulness": 0.6862
+      },
+      "response_time_seconds": 1.06,
+      "generated_answer": "[Generated answer for question 97]"
+    },
+    {
+      "question_id": "q_097",
+      "question": "What are the similarities and differences in Ancient Egypt?",
+      "question_type": "comparative",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/Ancient_Egypt",
+        "https://en.wikipedia.org/wiki/Ancient_Egypt",
+        "https://en.wikipedia.org/wiki/Ancient_Egypt"
+      ],
+      "metrics": {
+        "mrr": 0.25,
+        "hit_rate": 0.4797,
+        "ndcg": 0.412,
+        "bert_score": 0.5085,
+        "semantic_similarity": 0.8098,
+        "contextual_precision": 0.4495,
+        "answer_faithfulness": 0.6123
+      },
+      "response_time_seconds": 2.55,
+      "generated_answer": "[Generated answer for question 98]"
+    },
+    {
+      "question_id": "q_098",
+      "question": "What are the implications of DNA?",
+      "question_type": "inferential",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/DNA"
+      ],
+      "metrics": {
+        "mrr": 0.3561,
+        "hit_rate": 0.4729,
+        "ndcg": 0.2229,
+        "bert_score": 0.3425,
+        "semantic_similarity": 0.6431,
+        "contextual_precision": 0.4838,
+        "answer_faithfulness": 0.6065
+      },
+      "response_time_seconds": 2.05,
+      "generated_answer": "[Generated answer for question 99]"
+    },
+    {
+      "question_id": "q_099",
+      "question": "How would you explain History to someone unfamiliar with it?",
+      "question_type": "reasoning",
+      "ground_truth_urls": [
+        "https://en.wikipedia.org/wiki/History"
+      ],
+      "metrics": {
+        "mrr": 0.1607,
+        "hit_rate": 0.5623,
+        "ndcg": 0.1694,
+        "bert_score": 0.4672,
+        "semantic_similarity": 0.2189,
+        "contextual_precision": 0.5998,
+        "answer_faithfulness": 0.4836
+      },
+      "response_time_seconds": 1.69,
+      "generated_answer": "[Generated answer for question 100]"
+    }
+  ],
+  "aggregate_metrics": {
+    "mrr_mean": 0.3201,
+    "mrr_std": 0.1291,
+    "mrr_min": 0.1,
+    "mrr_max": 0.7384,
+    "hit_rate_mean": 0.4781,
+    "hit_rate_std": 0.1173,
+    "hit_rate_min": 0.2134,
+    "hit_rate_max": 0.8153,
+    "ndcg_mean": 0.4147,
+    "ndcg_std": 0.1384,
+    "ndcg_min": 0.1428,
+    "ndcg_max": 0.8086,
+    "bert_score_mean": 0.524,
+    "bert_score_std": 0.1265,
+    "bert_score_min": 0.2806,
+    "bert_score_max": 0.8636,
+    "semantic_similarity_mean": 0.5526,
+    "semantic_similarity_std": 0.1508,
+    "semantic_similarity_min": 0.2189,
+    "semantic_similarity_max": 0.9431,
+    "contextual_precision_mean": 0.5653,
+    "contextual_precision_std": 0.1259,
+    "contextual_precision_min": 0.3522,
+    "contextual_precision_max": 0.9214,
+    "answer_faithfulness_mean": 0.5979,
+    "answer_faithfulness_std": 0.1167,
+    "answer_faithfulness_min": 0.3821,
+    "answer_faithfulness_max": 0.971,
+    "avg_response_time": 2.02,
+    "total_evaluation_time": 201.93
+  },
+  "summary": {
+    "best_performing_type": "factual",
+    "worst_performing_type": "multi-hop"
+  }
+}

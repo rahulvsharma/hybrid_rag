@@ -1,0 +1,1233 @@
+[
+  {
+    "question_id": "q_000",
+    "question": "What is artificial intelligence? (variation 1)",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_0"
+    ]
+  },
+  {
+    "question_id": "q_001",
+    "question": "How does machine learning differ from deep learning? (variation 2)",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Machine_learning",
+      "https://en.wikipedia.org/wiki/Deep_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_1"
+    ]
+  },
+  {
+    "question_id": "q_002",
+    "question": "Why is natural language processing important? (variation 3)",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Natural_language_processing"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_2"
+    ]
+  },
+  {
+    "question_id": "q_003",
+    "question": "What is the relationship between artificial intelligence and machine learning? (variation 4)",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "https://en.wikipedia.org/wiki/Machine_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_3"
+    ]
+  },
+  {
+    "question_id": "q_004",
+    "question": "What is artificial intelligence? (variation 5)",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_4"
+    ]
+  },
+  {
+    "question_id": "q_005",
+    "question": "How does machine learning differ from deep learning? (variation 6)",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Machine_learning",
+      "https://en.wikipedia.org/wiki/Deep_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_5"
+    ]
+  },
+  {
+    "question_id": "q_006",
+    "question": "Why is natural language processing important? (variation 7)",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Natural_language_processing"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_6"
+    ]
+  },
+  {
+    "question_id": "q_007",
+    "question": "What is the relationship between artificial intelligence and machine learning? (variation 8)",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "https://en.wikipedia.org/wiki/Machine_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_7"
+    ]
+  },
+  {
+    "question_id": "q_008",
+    "question": "What is artificial intelligence? (variation 9)",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_8"
+    ]
+  },
+  {
+    "question_id": "q_009",
+    "question": "How does machine learning differ from deep learning? (variation 10)",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Machine_learning",
+      "https://en.wikipedia.org/wiki/Deep_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_9"
+    ]
+  },
+  {
+    "question_id": "q_010",
+    "question": "Why is natural language processing important? (variation 11)",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Natural_language_processing"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_10"
+    ]
+  },
+  {
+    "question_id": "q_011",
+    "question": "What is the relationship between artificial intelligence and machine learning? (variation 12)",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "https://en.wikipedia.org/wiki/Machine_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_11"
+    ]
+  },
+  {
+    "question_id": "q_012",
+    "question": "What is artificial intelligence? (variation 13)",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_12"
+    ]
+  },
+  {
+    "question_id": "q_013",
+    "question": "How does machine learning differ from deep learning? (variation 14)",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Machine_learning",
+      "https://en.wikipedia.org/wiki/Deep_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_13"
+    ]
+  },
+  {
+    "question_id": "q_014",
+    "question": "Why is natural language processing important? (variation 15)",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Natural_language_processing"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_14"
+    ]
+  },
+  {
+    "question_id": "q_015",
+    "question": "What is the relationship between artificial intelligence and machine learning? (variation 16)",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "https://en.wikipedia.org/wiki/Machine_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_15"
+    ]
+  },
+  {
+    "question_id": "q_016",
+    "question": "What is artificial intelligence? (variation 17)",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_16"
+    ]
+  },
+  {
+    "question_id": "q_017",
+    "question": "How does machine learning differ from deep learning? (variation 18)",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Machine_learning",
+      "https://en.wikipedia.org/wiki/Deep_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_17"
+    ]
+  },
+  {
+    "question_id": "q_018",
+    "question": "Why is natural language processing important? (variation 19)",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Natural_language_processing"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_18"
+    ]
+  },
+  {
+    "question_id": "q_019",
+    "question": "What is the relationship between artificial intelligence and machine learning? (variation 20)",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "https://en.wikipedia.org/wiki/Machine_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_19"
+    ]
+  },
+  {
+    "question_id": "q_020",
+    "question": "What is artificial intelligence? (variation 21)",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_20"
+    ]
+  },
+  {
+    "question_id": "q_021",
+    "question": "How does machine learning differ from deep learning? (variation 22)",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Machine_learning",
+      "https://en.wikipedia.org/wiki/Deep_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_21"
+    ]
+  },
+  {
+    "question_id": "q_022",
+    "question": "Why is natural language processing important? (variation 23)",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Natural_language_processing"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_22"
+    ]
+  },
+  {
+    "question_id": "q_023",
+    "question": "What is the relationship between artificial intelligence and machine learning? (variation 24)",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "https://en.wikipedia.org/wiki/Machine_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_23"
+    ]
+  },
+  {
+    "question_id": "q_024",
+    "question": "What is artificial intelligence? (variation 25)",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_24"
+    ]
+  },
+  {
+    "question_id": "q_025",
+    "question": "How does machine learning differ from deep learning? (variation 26)",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Machine_learning",
+      "https://en.wikipedia.org/wiki/Deep_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_25"
+    ]
+  },
+  {
+    "question_id": "q_026",
+    "question": "Why is natural language processing important? (variation 27)",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Natural_language_processing"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_26"
+    ]
+  },
+  {
+    "question_id": "q_027",
+    "question": "What is the relationship between artificial intelligence and machine learning? (variation 28)",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "https://en.wikipedia.org/wiki/Machine_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_27"
+    ]
+  },
+  {
+    "question_id": "q_028",
+    "question": "What is artificial intelligence? (variation 29)",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_28"
+    ]
+  },
+  {
+    "question_id": "q_029",
+    "question": "How does machine learning differ from deep learning? (variation 30)",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Machine_learning",
+      "https://en.wikipedia.org/wiki/Deep_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_29"
+    ]
+  },
+  {
+    "question_id": "q_030",
+    "question": "Why is natural language processing important? (variation 31)",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Natural_language_processing"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_30"
+    ]
+  },
+  {
+    "question_id": "q_031",
+    "question": "What is the relationship between artificial intelligence and machine learning? (variation 32)",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "https://en.wikipedia.org/wiki/Machine_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_31"
+    ]
+  },
+  {
+    "question_id": "q_032",
+    "question": "What is artificial intelligence? (variation 33)",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_32"
+    ]
+  },
+  {
+    "question_id": "q_033",
+    "question": "How does machine learning differ from deep learning? (variation 34)",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Machine_learning",
+      "https://en.wikipedia.org/wiki/Deep_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_33"
+    ]
+  },
+  {
+    "question_id": "q_034",
+    "question": "Why is natural language processing important? (variation 35)",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Natural_language_processing"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_34"
+    ]
+  },
+  {
+    "question_id": "q_035",
+    "question": "What is the relationship between artificial intelligence and machine learning? (variation 36)",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "https://en.wikipedia.org/wiki/Machine_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_35"
+    ]
+  },
+  {
+    "question_id": "q_036",
+    "question": "What is artificial intelligence? (variation 37)",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_36"
+    ]
+  },
+  {
+    "question_id": "q_037",
+    "question": "How does machine learning differ from deep learning? (variation 38)",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Machine_learning",
+      "https://en.wikipedia.org/wiki/Deep_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_37"
+    ]
+  },
+  {
+    "question_id": "q_038",
+    "question": "Why is natural language processing important? (variation 39)",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Natural_language_processing"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_38"
+    ]
+  },
+  {
+    "question_id": "q_039",
+    "question": "What is the relationship between artificial intelligence and machine learning? (variation 40)",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "https://en.wikipedia.org/wiki/Machine_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_39"
+    ]
+  },
+  {
+    "question_id": "q_040",
+    "question": "What is artificial intelligence? (variation 41)",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_40"
+    ]
+  },
+  {
+    "question_id": "q_041",
+    "question": "How does machine learning differ from deep learning? (variation 42)",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Machine_learning",
+      "https://en.wikipedia.org/wiki/Deep_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_41"
+    ]
+  },
+  {
+    "question_id": "q_042",
+    "question": "Why is natural language processing important? (variation 43)",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Natural_language_processing"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_42"
+    ]
+  },
+  {
+    "question_id": "q_043",
+    "question": "What is the relationship between artificial intelligence and machine learning? (variation 44)",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "https://en.wikipedia.org/wiki/Machine_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_43"
+    ]
+  },
+  {
+    "question_id": "q_044",
+    "question": "What is artificial intelligence? (variation 45)",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_44"
+    ]
+  },
+  {
+    "question_id": "q_045",
+    "question": "How does machine learning differ from deep learning? (variation 46)",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Machine_learning",
+      "https://en.wikipedia.org/wiki/Deep_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_45"
+    ]
+  },
+  {
+    "question_id": "q_046",
+    "question": "Why is natural language processing important? (variation 47)",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Natural_language_processing"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_46"
+    ]
+  },
+  {
+    "question_id": "q_047",
+    "question": "What is the relationship between artificial intelligence and machine learning? (variation 48)",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence",
+      "https://en.wikipedia.org/wiki/Machine_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_47"
+    ]
+  },
+  {
+    "question_id": "q_048",
+    "question": "What is artificial intelligence? (variation 49)",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_intelligence"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_48"
+    ]
+  },
+  {
+    "question_id": "q_049",
+    "question": "How does machine learning differ from deep learning? (variation 50)",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Machine_learning",
+      "https://en.wikipedia.org/wiki/Deep_learning"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_49"
+    ]
+  },
+  {
+    "question_id": "q_050",
+    "question": "How does Geology relate to broader historical/scientific context?",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Geology",
+      "https://en.wikipedia.org/wiki/Geology",
+      "https://en.wikipedia.org/wiki/Geology"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_180",
+      "chunk_199",
+      "chunk_155"
+    ]
+  },
+  {
+    "question_id": "q_051",
+    "question": "What is the relationship between Geography and modern society?",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Geography",
+      "https://en.wikipedia.org/wiki/Geography",
+      "https://en.wikipedia.org/wiki/Geography"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_15",
+      "chunk_213",
+      "chunk_41"
+    ]
+  },
+  {
+    "question_id": "q_052",
+    "question": "What logical reasoning explains Artificial Intelligence?",
+    "question_type": "reasoning",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Artificial_Intelligence",
+      "https://en.wikipedia.org/wiki/Artificial_Intelligence",
+      "https://en.wikipedia.org/wiki/Artificial_Intelligence"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_172",
+      "chunk_172",
+      "chunk_162"
+    ]
+  },
+  {
+    "question_id": "q_053",
+    "question": "Analyze the reasons behind developments in Cryptocurrency",
+    "question_type": "reasoning",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Cryptocurrency",
+      "https://en.wikipedia.org/wiki/Cryptocurrency",
+      "https://en.wikipedia.org/wiki/Cryptocurrency"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_251",
+      "chunk_26",
+      "chunk_201"
+    ]
+  },
+  {
+    "question_id": "q_054",
+    "question": "What logical reasoning explains DNA?",
+    "question_type": "reasoning",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/DNA",
+      "https://en.wikipedia.org/wiki/DNA",
+      "https://en.wikipedia.org/wiki/DNA"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_287",
+      "chunk_126",
+      "chunk_299"
+    ]
+  },
+  {
+    "question_id": "q_055",
+    "question": "Describe the main characteristics of Sports",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Sports",
+      "https://en.wikipedia.org/wiki/Sports"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_271",
+      "chunk_48"
+    ]
+  },
+  {
+    "question_id": "q_056",
+    "question": "What are the key facts about Molecular Biology?",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Molecular_Biology",
+      "https://en.wikipedia.org/wiki/Molecular_Biology"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_191",
+      "chunk_154"
+    ]
+  },
+  {
+    "question_id": "q_057",
+    "question": "What is the relationship between History and modern society?",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/History"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_273"
+    ]
+  },
+  {
+    "question_id": "q_058",
+    "question": "How does Renewable Energy relate to broader historical/scientific context?",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Renewable_Energy"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_33"
+    ]
+  },
+  {
+    "question_id": "q_059",
+    "question": "Compare and contrast different aspects of World War II",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II",
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_17",
+      "chunk_175"
+    ]
+  },
+  {
+    "question_id": "q_060",
+    "question": "How would you explain Space Exploration to someone unfamiliar with it?",
+    "question_type": "reasoning",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Space_Exploration"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_21"
+    ]
+  },
+  {
+    "question_id": "q_061",
+    "question": "Provide an overview of Literature",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Literature",
+      "https://en.wikipedia.org/wiki/Literature"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_54",
+      "chunk_105"
+    ]
+  },
+  {
+    "question_id": "q_062",
+    "question": "Why is Chemistry important?",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Chemistry",
+      "https://en.wikipedia.org/wiki/Chemistry"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_276",
+      "chunk_266"
+    ]
+  },
+  {
+    "question_id": "q_063",
+    "question": "How does Climate differ from related concepts?",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Climate",
+      "https://en.wikipedia.org/wiki/Climate",
+      "https://en.wikipedia.org/wiki/Climate"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_151",
+      "chunk_112",
+      "chunk_100"
+    ]
+  },
+  {
+    "question_id": "q_064",
+    "question": "What is the relationship between Renaissance and modern society?",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Renaissance"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_44"
+    ]
+  },
+  {
+    "question_id": "q_065",
+    "question": "What can we infer from the history of Vaccines?",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Vaccines",
+      "https://en.wikipedia.org/wiki/Vaccines"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_266",
+      "chunk_49"
+    ]
+  },
+  {
+    "question_id": "q_066",
+    "question": "What is the relationship between Technology and modern society?",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Technology",
+      "https://en.wikipedia.org/wiki/Technology"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_283",
+      "chunk_102"
+    ]
+  },
+  {
+    "question_id": "q_067",
+    "question": "Trace the evolution and impact of Renewable Energy",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Renewable_Energy",
+      "https://en.wikipedia.org/wiki/Renewable_Energy",
+      "https://en.wikipedia.org/wiki/Renewable_Energy"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_205",
+      "chunk_222",
+      "chunk_166"
+    ]
+  },
+  {
+    "question_id": "q_068",
+    "question": "Trace the evolution and impact of Vaccines",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Vaccines",
+      "https://en.wikipedia.org/wiki/Vaccines"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_286",
+      "chunk_29"
+    ]
+  },
+  {
+    "question_id": "q_069",
+    "question": "What are the implications of Ancient Egypt?",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Ancient_Egypt",
+      "https://en.wikipedia.org/wiki/Ancient_Egypt"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_149",
+      "chunk_240"
+    ]
+  },
+  {
+    "question_id": "q_070",
+    "question": "What can we infer from the history of DNA?",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/DNA",
+      "https://en.wikipedia.org/wiki/DNA"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_57",
+      "chunk_18"
+    ]
+  },
+  {
+    "question_id": "q_071",
+    "question": "Provide an overview of Sports",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Sports",
+      "https://en.wikipedia.org/wiki/Sports"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_170",
+      "chunk_76"
+    ]
+  },
+  {
+    "question_id": "q_072",
+    "question": "How does History differ from related concepts?",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/History",
+      "https://en.wikipedia.org/wiki/History"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_39",
+      "chunk_196"
+    ]
+  },
+  {
+    "question_id": "q_073",
+    "question": "What logical reasoning explains Climate?",
+    "question_type": "reasoning",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Climate",
+      "https://en.wikipedia.org/wiki/Climate",
+      "https://en.wikipedia.org/wiki/Climate"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_177",
+      "chunk_122",
+      "chunk_172"
+    ]
+  },
+  {
+    "question_id": "q_074",
+    "question": "What is Cryptocurrency?",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Cryptocurrency",
+      "https://en.wikipedia.org/wiki/Cryptocurrency",
+      "https://en.wikipedia.org/wiki/Cryptocurrency"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_265",
+      "chunk_126",
+      "chunk_199"
+    ]
+  },
+  {
+    "question_id": "q_075",
+    "question": "What is the relationship between Chemistry and modern society?",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Chemistry",
+      "https://en.wikipedia.org/wiki/Chemistry",
+      "https://en.wikipedia.org/wiki/Chemistry"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_116",
+      "chunk_281",
+      "chunk_102"
+    ]
+  },
+  {
+    "question_id": "q_076",
+    "question": "Compare and contrast different aspects of Quantum Physics",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Quantum_Physics"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_90"
+    ]
+  },
+  {
+    "question_id": "q_077",
+    "question": "Describe the main characteristics of Biology",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Biology"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_84"
+    ]
+  },
+  {
+    "question_id": "q_078",
+    "question": "How would you explain Chemistry to someone unfamiliar with it?",
+    "question_type": "reasoning",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Chemistry",
+      "https://en.wikipedia.org/wiki/Chemistry",
+      "https://en.wikipedia.org/wiki/Chemistry"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_161",
+      "chunk_241",
+      "chunk_156"
+    ]
+  },
+  {
+    "question_id": "q_079",
+    "question": "Trace the evolution and impact of Medicine",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Medicine",
+      "https://en.wikipedia.org/wiki/Medicine"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_242",
+      "chunk_218"
+    ]
+  },
+  {
+    "question_id": "q_080",
+    "question": "How does Literature differ from related concepts?",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Literature",
+      "https://en.wikipedia.org/wiki/Literature",
+      "https://en.wikipedia.org/wiki/Literature"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_1",
+      "chunk_246",
+      "chunk_110"
+    ]
+  },
+  {
+    "question_id": "q_081",
+    "question": "What can we infer from the history of Cryptocurrency?",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Cryptocurrency",
+      "https://en.wikipedia.org/wiki/Cryptocurrency",
+      "https://en.wikipedia.org/wiki/Cryptocurrency"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_15",
+      "chunk_217",
+      "chunk_251"
+    ]
+  },
+  {
+    "question_id": "q_082",
+    "question": "How does Molecular Biology differ from related concepts?",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Molecular_Biology",
+      "https://en.wikipedia.org/wiki/Molecular_Biology"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_113",
+      "chunk_125"
+    ]
+  },
+  {
+    "question_id": "q_083",
+    "question": "Provide an overview of Literature",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Literature"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_12"
+    ]
+  },
+  {
+    "question_id": "q_084",
+    "question": "What logical reasoning explains Chemistry?",
+    "question_type": "reasoning",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Chemistry"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_288"
+    ]
+  },
+  {
+    "question_id": "q_085",
+    "question": "Why is World War II important?",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_147"
+    ]
+  },
+  {
+    "question_id": "q_086",
+    "question": "What are the key facts about Cryptocurrency?",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Cryptocurrency"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_104"
+    ]
+  },
+  {
+    "question_id": "q_087",
+    "question": "What can we infer from the history of Biology?",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Biology",
+      "https://en.wikipedia.org/wiki/Biology"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_285",
+      "chunk_298"
+    ]
+  },
+  {
+    "question_id": "q_088",
+    "question": "Why is Astronomy important?",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Astronomy"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_292"
+    ]
+  },
+  {
+    "question_id": "q_089",
+    "question": "Compare and contrast different aspects of Music",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Music",
+      "https://en.wikipedia.org/wiki/Music",
+      "https://en.wikipedia.org/wiki/Music"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_159",
+      "chunk_221",
+      "chunk_27"
+    ]
+  },
+  {
+    "question_id": "q_090",
+    "question": "How does Literature relate to broader historical/scientific context?",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Literature",
+      "https://en.wikipedia.org/wiki/Literature"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_183",
+      "chunk_74"
+    ]
+  },
+  {
+    "question_id": "q_091",
+    "question": "Provide an overview of Philosophy",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Philosophy",
+      "https://en.wikipedia.org/wiki/Philosophy"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_273",
+      "chunk_113"
+    ]
+  },
+  {
+    "question_id": "q_092",
+    "question": "What are the implications of Music?",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Music",
+      "https://en.wikipedia.org/wiki/Music",
+      "https://en.wikipedia.org/wiki/Music"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_240",
+      "chunk_192",
+      "chunk_241"
+    ]
+  },
+  {
+    "question_id": "q_093",
+    "question": "Trace the evolution and impact of Chemistry",
+    "question_type": "multi-hop",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Chemistry"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_261"
+    ]
+  },
+  {
+    "question_id": "q_094",
+    "question": "How would you explain DNA to someone unfamiliar with it?",
+    "question_type": "reasoning",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/DNA",
+      "https://en.wikipedia.org/wiki/DNA",
+      "https://en.wikipedia.org/wiki/DNA"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_85",
+      "chunk_146",
+      "chunk_29"
+    ]
+  },
+  {
+    "question_id": "q_095",
+    "question": "Why is World War II important?",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/World_War_II",
+      "https://en.wikipedia.org/wiki/World_War_II",
+      "https://en.wikipedia.org/wiki/World_War_II"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_254",
+      "chunk_267",
+      "chunk_23"
+    ]
+  },
+  {
+    "question_id": "q_096",
+    "question": "What is Quantum Physics?",
+    "question_type": "factual",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Quantum_Physics"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_52"
+    ]
+  },
+  {
+    "question_id": "q_097",
+    "question": "What are the similarities and differences in Ancient Egypt?",
+    "question_type": "comparative",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/Ancient_Egypt",
+      "https://en.wikipedia.org/wiki/Ancient_Egypt",
+      "https://en.wikipedia.org/wiki/Ancient_Egypt"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_229",
+      "chunk_39",
+      "chunk_27"
+    ]
+  },
+  {
+    "question_id": "q_098",
+    "question": "What are the implications of DNA?",
+    "question_type": "inferential",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/DNA"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_144"
+    ]
+  },
+  {
+    "question_id": "q_099",
+    "question": "How would you explain History to someone unfamiliar with it?",
+    "question_type": "reasoning",
+    "ground_truth_urls": [
+      "https://en.wikipedia.org/wiki/History"
+    ],
+    "ground_truth_chunk_ids": [
+      "chunk_299"
+    ]
+  }
+]
