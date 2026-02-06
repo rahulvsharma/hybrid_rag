@@ -12,15 +12,6 @@ Built a hybrid retrieval-augmented generation (RAG) system that combines dense a
 
 We also created a comprehensive evaluation framework with 100 test questions to properly assess how well the system actually works.
 
-## Project Status
-
-**Complete & Ready for Submission**
-
-- **Questions:** 100 Q&A pairs (5 diverse types)
-- **Metrics:** 7 evaluation metrics with full justifications
-- **Innovation:** LLM-as-Judge, Adversarial Testing, Confidence Calibration
-- **Score:** 18.5/20 (A-) estimated
-
 ## What Does It Do?
 
 Basically, when you ask the system a question, it does the following:
@@ -162,12 +153,12 @@ hybrid_rag/
 
 ### Mandatory Metric
 
-1. **Mean Reciprocal Rank (MRR)** [2 marks]
+1. **Mean Reciprocal Rank (MRR)**
    - Measures: Position of first correct Wikipedia URL
    - **Current: 0.3201 ± 0.1291**
    - Interpretation: < 0.1 poor, 0.5-0.9 good, > 0.9 excellent
 
-### Additional Custom Metrics (5 Total)
+### Additional Custom Metrics
 
 2. **Hit Rate** - % questions with correct URL in top-10 (**47.81%**)
 3. **NDCG@10** - Ranking quality accounting for position (**0.4147**)
