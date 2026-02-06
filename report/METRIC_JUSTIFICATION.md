@@ -1,6 +1,6 @@
 # METRIC JUSTIFICATION DOCUMENT
 
-We needed to choose 7 metrics to evaluate our RAG system. The assignment required at least one mandatory metric (MRR) plus custom ones. Here's why we picked each one and how we calculated them.
+We needed to choose 5 metrics to evaluate our RAG system. The assignment required at least one mandatory metric (MRR) plus custom ones. Here's why we picked each one and how we calculated them.
 
 ## 1. Mean Reciprocal Rank (MRR) - MANDATORY METRIC
 
@@ -146,88 +146,7 @@ BERTScore is valuable because:
 
 ---
 
-## 5. Semantic Similarity (Cosine Similarity of Sentence Embeddings)
-
-### Why This Metric Matters
-
-Semantic Similarity directly measures how well the generated answer aligns with the retrieved context and question. It ensures the model generates answers grounded in the retrieved information.
-
-### Mathematical Formulation
-
-```
-Semantic_Similarity = cos(embedding_generated, embedding_reference)
-= (generated · reference) / (||generated|| * ||reference||)
-
-where:
-- embeddings are from all-MiniLM-L6-v2 model
-- · represents dot product
-- || || represents L2 norm
-```
-
-### Calculation Method
-
-1. Embed generated answer using sentence transformer
-2. Embed reference answer (from context)
-3. Compute cosine similarity: -1 to 1 (typically 0 to 1)
-4. Average across all questions
-
-### Interpretation Guidelines
-
-- **0.9-1.0**: Highly similar - Perfect semantic alignment
-- **0.7-0.9**: Very similar - Strong semantic overlap
-- **0.5-0.7**: Similar - Meaningful semantic connection
-- **<0.5**: Different - Low semantic similarity
-
-### Why This Metric?
-
-Semantic Similarity is essential because:
-
-1. Direct measure of answer relevance to context
-2. Captures meaning, not lexical overlap
-3. Fast computation compared to LLM-based metrics
-4. Complements other metrics for comprehensive evaluation
-
----
-
-## 6. Contextual Precision
-
-### Why This Metric Matters
-
-Contextual Precision measures what percentage of retrieved context is actually relevant to answering the question. High precision ensures most retrieved information is useful.
-
-### Mathematical Formulation
-
-```
-Contextual_Precision = (# relevant chunks in top-K) / K
-```
-
-### Calculation Method
-
-1. For each question, retrieve top-K chunks
-2. Manually/automatically mark chunks as relevant
-3. Count relevant chunks
-4. Divide by K (total retrieved)
-5. Average across questions
-
-### Interpretation Guidelines
-
-- **>0.8**: Excellent - Most retrieved info is useful
-- **0.6-0.8**: Good - Majority is relevant
-- **0.4-0.6**: Fair - About half is relevant
-- **<0.4**: Poor - Low useful information density
-
-### Why This Metric?
-
-Contextual Precision matters because:
-
-1. Measures signal-to-noise ratio in retrieved context
-2. High precision = less irrelevant information
-3. Important for generation quality
-4. Often more important than recall for LLMs
-
----
-
-## 7. Answer Faithfulness
+## 5. Answer Faithfulness
 
 ### Why This Metric Matters
 
@@ -260,9 +179,9 @@ Answer Faithfulness is crucial because:
 
 ## Metric Selection Rationale
 
-### Why These 7 Metrics?
+### Why These 5 Metrics?
 
-1. **Coverage**: Retrieval (MRR, Hit Rate, NDCG, Precision), Answer Quality (BERTScore, Semantic Sim), Faithfulness (Answer Faithfulness)
+1. **Coverage**: Retrieval (MRR, Hit Rate, NDCG), Answer Quality (BERTScore), Faithfulness (Answer Faithfulness)
 2. **Diversity**: Different aspects of system performance
 3. **Interpretability**: All metrics have clear meaning
 4. **Practicality**: Reasonable computation time
@@ -273,7 +192,8 @@ Answer Faithfulness is crucial because:
 - **BLEU**: Too lexical, poor for semantic evaluation
 - **ROUGE-L**: Good but overlaps with BERTScore
 - **Exact Match (EM)**: Too strict, fails on paraphrases
-- **Recall**: Less important than precision for LLM context
+- **Semantic Similarity**: Overlaps with BERTScore semantic matching
+- **Contextual Precision**: Too redundant with Hit Rate
 
 ---
 
@@ -281,15 +201,13 @@ Answer Faithfulness is crucial because:
 
 Based on literature and best practices:
 
-| Metric               | Target | Reason                               |
-| -------------------- | ------ | ------------------------------------ |
-| MRR                  | >0.6   | Should identify source quickly       |
-| Hit Rate             | >75%   | Most questions should succeed        |
-| NDCG@10              | >0.7   | Ranking should be good               |
-| BERTScore F1         | >0.65  | Semantic match should be strong      |
-| Semantic Sim         | >0.7   | Answer should align with context     |
-| Contextual Precision | >0.7   | Retrieved context should be relevant |
-| Answer Faithfulness  | >0.8   | Answers should be grounded           |
+| Metric              | Target | Reason                          |
+| ------------------- | ------ | ------------------------------- |
+| MRR                 | >0.6   | Should identify source quickly  |
+| Hit Rate            | >75%   | Most questions should succeed   |
+| NDCG@10             | >0.7   | Ranking should be good          |
+| BERTScore F1        | >0.65  | Semantic match should be strong |
+| Answer Faithfulness | >0.8   | Answers should be grounded      |
 
 ---
 

@@ -23,11 +23,11 @@ Basically, when you ask the system a question, it does the following:
 
 2. **Generates an answer** using Flan-T5-base, which tries to be faithful to what it retrieved
 
-3. **Evaluates itself** using 7 different metrics on 100 test questions:
+3. **Evaluates itself** using 5 key metrics on 100 test questions:
    - MRR (how fast does it find the right document)
    - Hit Rate (does it retrieve correct docs in top 10)
    - NDCG (is the ranking good quality)
-   - BERTScore, Semantic Similarity, Contextual Precision (how well-matched are answers)
+   - BERTScore (how well-matched are generated answers)
    - Answer Faithfulness (does it avoid making stuff up)
 
 4. **Includes advanced testing** like LLM-based judging, adversarial test cases, and confidence calibration
@@ -119,7 +119,7 @@ hybrid_rag/
 │   ├── main.py                   - Entry point
 │   └── __init__.py
 ├── evaluation/
-│   ├── evaluation.py             - 7 evaluation metrics implementation
+│   ├── evaluation.py             - 5 evaluation metrics implementation
 │   ├── evaluation_pipeline.py    - Automated evaluation pipeline
 │   ├── llm_as_judge.py          - LLM-based answer evaluation [NEW]
 │   ├── adversarial_testing.py   - Adversarial test suite [NEW]
@@ -149,7 +149,7 @@ hybrid_rag/
 └── README.md                     - This file
 ```
 
-## Evaluation Metrics (7 Total)
+## Evaluation Metrics (5 Total)
 
 ### Mandatory Metric
 
@@ -163,9 +163,7 @@ hybrid_rag/
 2. **Hit Rate** - % questions with correct URL in top-10 (**47.81%**)
 3. **NDCG@10** - Ranking quality accounting for position (**0.4147**)
 4. **BERTScore F1** - Semantic similarity via BERT embeddings (**0.5240**)
-5. **Semantic Similarity** - Cosine similarity of sentence embeddings (**0.5526**)
-6. **Contextual Precision** - % of retrieved chunks actually relevant (**0.5653**)
-7. **Answer Faithfulness** - Answer grounded in retrieved context (**59.79%**)
+5. **Answer Faithfulness** - Answer grounded in retrieved context (**59.79%**)
 
 **Full justifications with mathematical formulations in:** `report/METRIC_JUSTIFICATION.md`
 
@@ -207,8 +205,8 @@ hybrid_rag/
 | **BERTScore**            | **0.5240**          | **Moderate semantic match**         |
 | **Semantic Similarity**  | **0.5526**          | **Good answer alignment**           |
 | **Contextual Precision** | **0.5653**          | **Good chunk relevance**            |
-| **Answer Faithfulness**  | **59.79%**          | **Low hallucination rate**          |
-| **Avg Response Time**    | **2.02s**           | **Fast, real-time capable**         |
+
+| \*\*
 
 ### Performance by Question Type
 
