@@ -14,7 +14,7 @@ Contains the evaluation code and test questions.
 
 ### evaluation.py
 
-Implements all 8 metrics used to test the system.
+Implements all 5 core metrics used to test the system.
 
 Classes:
 
@@ -24,14 +24,11 @@ Classes:
 
 Metrics:
 
-1. MRR@URL - Mean Reciprocal Rank at URL level
-2. Hit Rate - Percentage with correct URL in top 10
-3. NDCG@10 - Ranking quality metric
-4. Contextual Precision - URL-level precision
-5. Semantic Similarity - Answer-context similarity
-6. Answer Faithfulness - Answer grounded in facts
-7. ROUGE-L - Word overlap metric
-8. BERTScore - Neural semantic score
+1. MRR (Mean Reciprocal Rank) - Position of correct document
+2. Hit Rate - Percentage with correct document in top 10
+3. NDCG@10 - Ranking quality accounting for position
+4. BERTScore - Neural semantic similarity between answers
+5. Answer Faithfulness - Hallucination control (answers grounded in retrieved content)
 
 ### evaluation_pipeline.py
 

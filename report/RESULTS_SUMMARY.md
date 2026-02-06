@@ -16,17 +16,15 @@
 
 ## Aggregate Metrics Summary
 
-### All 7 Evaluation Metrics (Latest Run)
+### All 5 Evaluation Metrics (Latest Run)
 
-| Metric                   | Mean       | Std Dev    | Min    | Max    | Interpretation                      |
-| ------------------------ | ---------- | ---------- | ------ | ------ | ----------------------------------- |
-| **MRR**                  | **0.3201** | **0.1291** | 0.1000 | 0.7301 | **Fair - Relevant docs in top 3-4** |
-| **Hit Rate**             | **0.4781** | 0.1201     | 0.2618 | 0.7051 | **Moderate - 48% success rate**     |
-| **NDCG@10**              | **0.4147** | 0.1345     | 0.1000 | 0.8650 | **Fair ranking quality**            |
-| **BERTScore**            | **0.5240** | 0.1298     | 0.2569 | 0.8342 | **Moderate semantic match**         |
-| **Semantic Similarity**  | **0.5526** | 0.1356     | 0.2479 | 0.8758 | **Good answer alignment**           |
-| **Contextual Precision** | **0.5653** | 0.1418     | 0.2462 | 1.0000 | **Good chunk relevance**            |
-| **Answer Faithfulness**  | **0.5979** | 0.1185     | 0.3585 | 0.9624 | **Good grounding (59.79%)**         |
+| Metric                  | Mean       | Std Dev    | Min    | Max    | Interpretation                      |
+| ----------------------- | ---------- | ---------- | ------ | ------ | ----------------------------------- |
+| **MRR**                 | **0.3201** | **0.1291** | 0.1000 | 0.7301 | **Fair - Relevant docs in top 3-4** |
+| **Hit Rate**            | **0.4781** | 0.1201     | 0.2618 | 0.7051 | **Moderate - 48% success rate**     |
+| **NDCG@10**             | **0.4147** | 0.1345     | 0.1000 | 0.8650 | **Fair ranking quality**            |
+| **BERTScore**           | **0.5240** | 0.1298     | 0.2569 | 0.8342 | **Moderate semantic match**         |
+| **Answer Faithfulness** | **0.5979** | 0.1185     | 0.3585 | 0.9624 | **Good grounding (59.79%)**         |
 
 ### Performance Characteristics
 
