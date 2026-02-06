@@ -186,5 +186,3 @@ The Hybrid RAG System demonstrates solid performance across diverse question typ
 - Question types: 5 (factual, comparative, inferential, multi-hop, reasoning)
 - Metrics analyzed: 7 comprehensive metrics
 - Performance range: 42.01% (multi-hop) to 69.43% (factual)
-
-**Report Generated:** 2026-02-02 14:35:22 UTC

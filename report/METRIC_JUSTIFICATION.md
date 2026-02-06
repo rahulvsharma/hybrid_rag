@@ -304,7 +304,3 @@ All metrics are computed in `evaluation/evaluation.py`:
 - **Metric Libraries**: transformers (BERTScore), sklearn (cosine similarity)
 
 ---
-
-**Document Version**: 1.0  
-**Last Updated**: 1 February 2026  
-**Metrics Reviewed**: 7/7
