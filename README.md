@@ -121,10 +121,10 @@ hybrid_rag/
 ├── evaluation/
 │   ├── evaluation.py             - 5 evaluation metrics implementation
 │   ├── evaluation_pipeline.py    - Automated evaluation pipeline
-│   ├── llm_as_judge.py          - LLM-based answer evaluation [NEW]
-│   ├── adversarial_testing.py   - Adversarial test suite [NEW]
-│   ├── confidence_calibration.py - Confidence analysis [NEW]
-│   ├── generated_questions.json  - 100 Q&A pairs (EXPANDED: 50→100)
+│   ├── llm_as_judge.py          - LLM-based answer evaluation
+│   ├── adversarial_testing.py   - Adversarial test suite
+│   ├── confidence_calibration.py - Confidence analysis
+│   ├── generated_questions.json  - 100 Q&A pairs
 │   └── README.md
 ├── interface/
 │   ├── app.py                    - Streamlit web interface
@@ -135,12 +135,13 @@ hybrid_rag/
 │   ├── wikipedia_corpus.json     - Processed corpus (~3,452 chunks)
 │   └── README.md
 ├── report/
-│   ├── COMPLETE_EVALUATION_REPORT.md
 │   ├── ABLATION_STUDIES.md
 │   ├── ERROR_ANALYSIS.md
-│   ├── METRIC_JUSTIFICATION.md        - Metric documentation [NEW]
-│   ├── IMPROVEMENT_ANALYSIS.md        - Enhancement report [NEW]
-│   ├── evaluation_results_actual.json - Results for 100 questions [NEW]
+│   ├── EVALUATION_REPORT.md
+│   ├── METRIC_JUSTIFICATION.md
+│   ├── IMPROVEMENT_ANALYSIS.md
+│   ├── INNOVATIVE_APPROACHES.md
+│   ├── RESULTS_SUMMARY.md
 │   └── README.md
 ├── improve_submission.py         - Improvement automation script
 ├── generate_results.py           - Result generation script
@@ -197,16 +198,13 @@ hybrid_rag/
 
 ### Overall Results (100 Questions - Latest Evaluation)
 
-| Metric                   | Value               | Interpretation                      |
-| ------------------------ | ------------------- | ----------------------------------- |
-| **MRR**                  | **0.3201 ± 0.1291** | **Fair - Relevant docs in top 3-4** |
-| **Hit Rate**             | **47.81%**          | **Moderate - Nearly 50% coverage**  |
-| **NDCG**                 | **0.4147**          | **Fair ranking quality**            |
-| **BERTScore**            | **0.5240**          | **Moderate semantic match**         |
-| **Semantic Similarity**  | **0.5526**          | **Good answer alignment**           |
-| **Contextual Precision** | **0.5653**          | **Good chunk relevance**            |
-
-| \*\*
+| Metric                  | Value               | Interpretation                      |
+| ----------------------- | ------------------- | ----------------------------------- |
+| **MRR**                 | **0.3201 ± 0.1291** | **Fair - Relevant docs in top 3-4** |
+| **Hit Rate**            | **47.81%**          | **Moderate - Nearly 50% coverage**  |
+| **NDCG@10**             | **0.4147**          | **Fair ranking quality**            |
+| **BERTScore F1**        | **0.5240**          | **Moderate semantic match**         |
+| **Answer Faithfulness** | **59.79%**          | **Good grounding in context**       |
 
 ### Performance by Question Type
 
